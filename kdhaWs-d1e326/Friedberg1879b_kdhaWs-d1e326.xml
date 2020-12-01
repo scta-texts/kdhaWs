@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS XI.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS XI.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e326">
+        <head xml:id="kdhaWs-d1e326-Hd1e102">TITULUS XI.</head>
+        <head xml:id="kdhaWs-d1e326-Hd1e105" type="question-title"> DE SENTENTIA ET RE IUDICATA. </head>
+        <div xml:id="kdhaWs-d1e326-Dd1e108">
+          <head xml:id="kdhaWs-d1e326-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e326-d1e113"> Qui tres sententias contrarias in quavis causa reportavit, de illarum nulli-tate non agit, nec excipit ipsarum exsecutione non facta; et respicit etiam
+            pendentia. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e326-d1e116"> Clemens V. in concilio Viennensi . Ut calumniis litigantium occurratur, is, qui in beneficiali vel alia quavis causa tres contra se in petitorio vel
+            possessorio sententias reportavit, ad agendum de nullitate ipsarum vel alicuius ex eis nullatenus admittatur, donec huiusmodi sententiae plenarie fuerint exsecutioni mandatae. Similiter si
+            ille, contra quem tres sententiae diffinitivae latae fuerint, ab interlocutoria vel gravamine ante prolationem ipsarum vel earum alicuius se appellasse, et causam appellationis huiusmodi
+            adhuc pendere proponat: sententiarum praedictarum exsecutionem tali praetextu nolumus impediri. Quae ad causas qualitercunque etiam per appellationem pendentes duximus extendenda. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e326-Dd1e120">
+          <head xml:id="kdhaWs-d1e326-Hd1e122">Caput 2</head>
+          <p xml:id="kdhaWs-d1e326-d1e125"> Sententia, lata contra citatum, extra citantis territorium exsistentem, nulla est ipso iure. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e326-d1e128">
+            <ref xml:id="kdhaWs-d1e326-Rd1e130">Idem .</ref>
+             Pastoralis cura sollicitudinis, nobis divinitus super cunctas Christiani populi nationes iniuncta, nos invigilare remediis subiectorum, eorundem periculis obviare et scandala removere
+            compellit. Sane, quum iam dudum inter quondam Henricum imperatorem Romanum , et carissimum in Christo filium nostrum Robertum Siciliae regem gravis fuisset materia turbationis exorta,
+            asserente deinde imperatore praedicto, quod cum quibusdam ipsius subditis rex confoederationes et conspirationes fecerat in ipsius maiestatis offensam, quodque tractaverat et ordinaverat,
+            ut civitates quaedam, sub imperii et imperatoris eiusdem obedientia consistentes, contra eum et imperium rebellarent, gentesque, sui ipsius fultae subsidio, nonnullas alias imperii
+            civitates et castra, (inde violenter eiectis ipsius imperatoris officialibus,) occuparunt , et pro ipso rege occupata tenebant, ac alias etiam in Urbe et alibi in imperii et imperatoris
+            eiusdem contemptum, et suae maiestatis iniuriam et reipublicae detrimentum multa gravia fuerunt per regem eundem ac malitiam et instigationem ipsius tam a suis stipendiariis quam a
+            subditis imperatoris commissa: praehabitis per imperatorem eundem quibusdam processibus contra eum, absentem tamen, quamvis legitime, (iuxta imperatoris assertionem) citatum, ac, quod
+            supra dicta erant notoria, per imperialem interlocutoriam declarato imperator ipse, regem affirmans propter praemissa laesae maiestatis criminis reum esse, in eum peremptorie (ut dixit) et
+            sufficienter citatum, sed comparere contumaciter recusantem, tanquam rebellem, proditorem et hostem imperii, ac reum criminis supra dicti, privationis omnium dignitatum, quocunque
+            comprehensarum titulo, et quibus se intitulabat rex ipse, auctoritatum quoque, honorum, provinciarum, terrarum, bonorum, iurium et iurisdictionum tam perpetuorum quam temporalium,) et, si
+            quando veniret in suam et imperii fortiam, mutilationis etiam capitis sententiam promulgavit, omnem supplendo defectum, si quis forsitan fuerat ex solennitate iuris omissus in processibus
+            memoratis, praemissa, (ut asseruit,) faciens exigente iustitia et de imperiali etiam potestate. Verum quia huiusmodi sententia, quae non a discretione matre virtutum, sed a noverca
+            iustitiae, voluntaria scilicet iudicantis praecipitatione, processit, partus forsan se deteriores haberet, si ipsius sententiae inefficacia in publicum praecone iustitia non prodiret: nos,
+            circa eam tali uti provisione volentes, quae , (detectis ipsius defectibus,) seminata per eam exstinguat pericula, et in ratione reddenda sit posteris profutura, ipsam subiiciendam esse
+            providimus limae iustitiae, ac rectae libramini rationis. Eiusdem igitur causis et continentia, nec non conditione illorum, a quo et in quem lata fuit, diligenti et debita consideratione
+            pensatis, patenter ex eis illius adstruitur evidentia nulli-tatis, et manifeste arguitur temeritas promulgantis. Notorium quippe ac indubitatum exsistit, quod grandis exercitus tempore
+            dictorum processuum et sententiae, continue imperatori assistens, regem ipsum et suos prosequebatur odio capitali, Pisanaque civitas, in qua lata fuit memorata sententia, regem capitali
+            habebat odio notorio et antiquo. Esto igitur, quod rex ipse alias ad praemissa fuisset legitime per imperatorem citatus: numquid venire debuit ad iudicem , exercitu feroci ac grandi ,
+            ipsique citato, (ut praemittitur,) odioso stipatum ? Numquid etiam debuit comparere in loco admodum populoso, multum potenti, ac praefato in eum odio provocato? Quis enim auderet, vel qua
+            ratione audere aliquis teneretur consistorii talis subire iudicium, et se in hostium sinu reponere, ac ad mortem per violentam iniuriam, non per iustitiam inferendam , ultroneum se
+            offerre? Haec quidem iure timentur, haec de more vitantur, haec humana fugit ratio, haec abhorret natura. Desiperet igitur, qui citationem huiusmodi saperet arctasse citatum. Ut illud,
+            tanquam notissimum, nullatenus omittamus, quod regem , extra districtum imperii, in regno scilicet Siciliae, notorie ac continue tempore supra dicto morantem, citare non potuit imperator,
+            nec citatio, si quam forsan de ipso infra imperii fines fecit, citatum extra imperium constitutum arctavit. Nos quoque, regis ordinarius iudex, quod ad imperatoris iudicium citaremus vel
+            citari aut remitti faceremus eundem, nequaquam fuimus requisiti. Immo, licet ad nos et curiam nostram temporibus illis rumores frequenter de curia imperatoris venirent, et iuxta eum etiam
+            quidam ex fratribus nostris essent: prius tamen dictae sententiae promulgatio, quam aliquid de processibus antecedentibus, ad audientiam nostram pervenit . Denique licet rex ipse terras
+            aliquas ab imperatore tenere dicatur in feudum: non tamen in eis, sed in regno praefato domicilium suum fovebat. Unde imperator in ipsius personam nullam ratione terrarum huiusmodi, nisi
+            ex natura feudorum, debitam superioritatem habebat. Quodsi punitio criminis, infra districtum imperialem commissi, ad imperatorem forsan pertinuisse asseratur : verum est quidem, si in
+            eodem districtu fuisset inventus delinquens, vel ad illum de more remissus . Dicine ergo sententia meruit, quae a iudice, qui per regem tute adiri non potuit, et in loco notorie , (ut
+            praefertur,) non tuto, in absentem, nec citatum legitime, ac inauditum per consequens et indefensum, non maturo fuit iudicio, sed praecipitio, et de tanto praesertim crimine promulgata?
+            Rursus non est silentio relinquendum, quod ipse rex noster et ecclesiae Romanae ratione regni praedicti notorie subditus, homoque ligius et vasallus, ac in eodem regno, non, ut
+            praemittitur, in imperio, certum, continuum et notorium suum habens domicilium, ac originem inde trahens, imperatori eo modo non subfuit , quod in eum crimen laesae maiestatis commiserit ,
+            quantumlibet omnia in sententia supra dicta contenta veritatem indubiam continerent. Sicque nedum non iure, immo nec iuris colore tulit imperator sententiam supra dictam in regem ex causa,
+            quae veritatis subsistentiam non habebat. Propter quam etiam, quatenus in eo fuit, regem eundem privando regno et regia dignitate, ac terris etiam aliis et iurisdictionibus perpetuis et
+            temporalibus, quae sub eo nullatenus vel ab eo, sed a nobis et sub nobis tenebat, nec non procedendo contra regem eundem ex illis, quae per ipsius stipendiarios ac nonnullos imperatoris
+            eiusdem subiectos per malitiam et instigationem regis ipsius contra eum fuisse commissa in Urbe dicebat, quum, etsi illa fuissent ibidem re vera commissa, punitio tamen eorum in regem,
+            veluti extra districtum imperii commissorum, ad imperatorem nullatenus pertineret, inhibendo etiam in eadem sententia sub magnarum appositione poenarum, quarum aliquas sibi applicari
+            mandavit, ne quis dicto regi praesumeret in suis respondere debitis, in ipsiusve familiaritate vel servitio remanere, aut eidem contra ipsum imperatorem quovis modo impendere consilium,
+            auxilium vel favorem, quum debitores, servitores et auxiliatores huiusmodi extra imperium et in regno constituti praedicto nullatenus imperatori subessent, nec ex committendis in regno
+            eodem dictis possent poenis adstringi vel aliqualiter condemnari per ipsum, absolvendo quoque ab omni fidelitate, obligatione, servitio, promissione ac pacto provincias omnes, civitates et
+            castra et loca , ipsiusque vasallos, et feudatarios, et alios quoslibet eidem regi quomodolibet obligatos, quum includerentur in absolutione huiusmodi terrae et personae nobis et ecclesiae
+            Romanae subiectae, propriae terminos potestatis excessit, in messem nostram mittens perperam suam falcem. Ceterum defectus suppletio, circa processus adhibita supra dictos, non tantum
+            valet ad iustificationem ipsorum et sententiae supra dictae, quantum ad eorum suggillationem et notam: quum nullam super praemissis potestatem haberet imperator in regem, sibi alias, quam
+            ut praefertur, non subditum, non citatum legitime aut remissum, et extra districtum ipsius continue ac notorie consistentem. Nec praedicta suppletio circa subditum etiam ad ea potuisset de
+            ratione referri, per quae de crimine, praesertim sic gravi delato defensionis, (quae a iure provenit naturali,) facultas adimi valuisset, quum illa imperatori tollere non licuerit, quae
+            iuris naturalis exsistunt. Ut igitur, sicut memorata sententia iuris caret effectu, sic auctoritate et nomine rei careat iudicatae, ut nec in opinione communi aut vulgi labiis nomen habere
+            sententiae mereatur, ut etiam in magnum iustitiae ac pacis obsequium scandalosis occurratur periculis, quae cum nostra et ecclesiae, provinciarum multarum, regnorum et gentium turbatione
+            non modica possent occasione ipsius pro tempore suboriri: nos tam ex superioritate, quam ad imperium non est dubium nos habere, quam ex potestate, in qua vacante imperio imperatori
+            succedimus, et nihilominus ex illius plenitudine potestatis, quam Christus Rex regum et Dominus dominantium nobis, licet immeritis, in persona beati Petri concessit, sententiam et
+            processus omnes praedictos, et quicquid ex eis secutum est vel occasione ipsorum, de fratrum nostrorum consilio declaramus fuisse ac esse omnino irritos et inanes, nullumque debere aut
+            debuisse sortiri effectum seu nocumentum, vel notam afferre cuiquam, vel quomodolibet attulisse. Ipsos-que nihilominus, quatenus processerunt de facto, et quicquid ex eis secutum est, vel
+            ob eos, vel in posterum sequi posset, in irritum revocamus . </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

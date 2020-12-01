@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PROOEMIUM.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>PROOEMIUM.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-2eija3">
+        <head xml:id="kdhaWs-2eija3-Hd1e102">PROOEMIUM.</head>
+        <p xml:id="kdhaWs-2eija3-d1e105">Ioannes Episcopus servus servorum Dei, dilectis filiis doctoribus et scholaribus universis Bononiae commorantibus, salutem et apostolicam benedictionem.</p>
+        <p xml:id="kdhaWs-2eija3-d1e108"> Quoniam nulla iuris sanctio, quantumcunque perpenso digesta consilio, ad humanae naturae varietatem et machinationes eius inopinales sufficit, nec ad
+          decisionem lucidam suae nodosae ambiguitatis attingit, eo praesertim, quod vix aliquid adeo certum clarumque statuitur, quin ex causis emergentibus, quibus iura iam posita mederi non possint
+          , in dubium revocetur; quia etiam ab adolescentia viri proclivis ad malum sensualitas humana declinat, per quod morum subversio in clero et populo frequenter obrepit: necessaria est
+          superioris auctoritas, ut tam per determinationis opportunae suffragium tollat ambigua, lites auferat, altercationes dirimat et obscura succidat, quam per cultoris providi sarculum exstirpet
+          vitia, virtutes inserat, corrigat excessus moresque reformet. Haec sane felicis recordationis Clemens Papa V. praedecessor noster prudenter attendens, et provide cupiens deformatorum
+          reformationi prospicere, solvere difficilia, ac sanctiones quaestionibus et negotiis imminentibus consonas promulgare, dudum nedum in concilio Viennensi, quin etiam ante et post ipsum
+          concilium constitutiones plurimas edidit, in quibus multa utilia statuit atque salubria, et nonnulla dubia in iudiciis et extra frequentata decidit. Et licet eas, collectas in unum volumen
+          et sub congruis titulis collocatas, mittere decrevisset et dare in commune subiectis: assidua tamen occupatio circa magna, ac sortis humanae conditio, quae ipsum de medio sustulit, in causa
+          fuerunt, quare suum in hac parte propositum non implevit. Nos etiam, qui, sicut eidem, licet immeriti, in apostolatus officio </p>
+        <p xml:id="kdhaWs-2eija3-d1e111"> Domino permittente successimus, sic et in affectus plenitudine in his, quae compendium universi concernunt, successisse debemus, tot grandibus agendis et
+          arduis fuimus a nostrae promotionis exordio circumsepti, quod tam ex hoc quam ex causis rationabilibus aliis, quas sub silentio providimus committendas, praedictas vobis communicare
+          constitutiones fuimus hactenus impediti. Nunc igitur opportunitate captata illas vobis sub bulla nostra transmittimus, universitati vestrae per apostolica scripta mandantes, quatenus eas
+          prompto affectu suscipiatis et studio alacri, eis, sic vobis manifestatis et cognitis, usuri de cetero in iudiciis et in scholis, c. Data Avinione VIII. Kal. Novembris Pontificatus nostri
+          anno secundo. </p>
+
+
+
+
+      </div>
+    </body>
+  </text>
+</TEI>

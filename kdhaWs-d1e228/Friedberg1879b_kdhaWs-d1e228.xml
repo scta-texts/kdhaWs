@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS III.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS III.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e228">
+        <head xml:id="kdhaWs-d1e228-Hd1e102">TITULUS III.</head>
+        <head xml:id="kdhaWs-d1e228-Hd1e105" type="question-title"> DE CAUSA POSSESSIONIS ET PROPRIETATIS . </head>
+        <p xml:id="kdhaWs-d1e228-d1e108"> CAP. UN. </p>
+        <p xml:id="kdhaWs-d1e228-d1e111"> In causa beneficiali, delata etiam per appellationem ad curiam, utraque pars potest petitorium et possessorium intentare. Et ante causae conclusionem potest
+          spoliatus, suspenso petitorio suo vel adversarii, possessorium prosequi. Ioann. Andr. </p>
+        <p xml:id="kdhaWs-d1e228-d1e114"> Clemens V. in concilio Viennensi . </p>
+        <p xml:id="kdhaWs-d1e228-d1e118"> Causa beneficiali per appellationem ad sedem apostolicam legitime devoluta, tam appellanti quam appellato licere decernimus nedum petitorium, sed et
+          possessorium intentare, et in spoliantis odium ante causae conclusionem suspendere petitorium, a se et ab adversario intentatum, in solo possessorio procedendo. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

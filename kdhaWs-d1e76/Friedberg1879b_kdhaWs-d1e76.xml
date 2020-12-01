@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS II.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS II.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e76">
+        <head xml:id="kdhaWs-d1e76-Hd1e102">TITULUS II.</head>
+        <head xml:id="kdhaWs-d1e76-Hd1e105" type="question-title">DE RESCRIPTIS.</head>
+        <div xml:id="kdhaWs-d1e76-Dd1e108">
+          <head xml:id="kdhaWs-d1e76-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e76-d1e113"> Maior praelatus pro membris suis, etiamsi sunt de mensa, reum convenire non potest per rescriptum apostolicum, nisi ubi possent administratores membrorum.
+            Contra faciens in expensis et interesse punitur, et processus est irritus. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e76-d1e116">
+            <ref xml:id="kdhaWs-d1e76-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Abbates aut alii religiosi, quibuslibet administrationibus praesidentes, occasione prioratuum seu aliorum locorum subditorum eisdem nullum auctoritate sedis apostolicae literarum vel
+            legatorum ipsius quomodolibet valeant convenire, nisi ubi et coram quibus prioratuum et locorum ipsorum prioribus aut aliis gubernatoribus hoc liceret. Nec occasione locorum ad mensas
+            pertinentium eorundem aliud ipsis super hoc liceat, quam si loca ipsa sic praemissa speciales sub eis gubernatores haberent. Si quis autem aliquem contra haec vexare praesumpserit: in
+            expensis sibi et interesse per iudicem, coram quo vexatio fiet huiusmodi, condemnetur, omnisque processus contra praemissa habitus sit irritus ipso iure . </p>
+        </div>
+        <div xml:id="kdhaWs-d1e76-Dd1e123">
+          <head xml:id="kdhaWs-d1e76-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e76-d1e128"> Principalis officialis episcopi et prior conventualis, licet obedientiarius, delegari possunt a Papa, officialis vero foraneus vel prior claustralis non.
+            Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e76-d1e131">
+            <ref xml:id="kdhaWs-d1e76-Rd1e133">Idem in eodem.</ref>
+             Etsi principalis officialis episcopi, aut religiosus conventualem obtinens prioratum, (quamvis ad prioratum eundem prior non consueverit per electionem assumi,) a sede apostolica vel
+            legato eiusdem dari valeat delegatus: in officiali tamen foraneo, aut religioso monasterii sui priore claustrali, nequaquam hoc volumus observari. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e76-Dd1e138">
+          <head xml:id="kdhaWs-d1e76-Hd1e140">Caput 3</head>
+          <p xml:id="kdhaWs-d1e76-d1e143"> Brevius non potest summari. </p>
+          <p xml:id="kdhaWs-d1e76-d1e146">
+            <ref xml:id="kdhaWs-d1e76-Rd1e148">Idem in eodem .</ref>
+             Auditor, in Romana curia deputatus a nobis, de beneficio, quod pronunciabit alicui de iure fore debitum, poterit sibi absque commissione alia, ut evitetur circuitus, providere. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e76-Dd1e154">
+          <head xml:id="kdhaWs-d1e76-Hd1e156">Caput 4</head>
+          <p xml:id="kdhaWs-d1e76-d1e159"> CAP. IV. </p>
+          <p xml:id="kdhaWs-d1e76-d1e162"> Exspectans beneficium perdit gratiam, si consequitur aliud, quod cum illo, quod exspectat, de iure tenere non potest. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e76-d1e165">
+            <ref xml:id="kdhaWs-d1e76-Rd1e167">Idem</ref>
+             . Gratiae, ut de dignitate vel beneficio curato tibi provideatur, renunciare videris, si ante adeptionem eiusdem aliud beneficium pacifice assequaris, quod simul de iure cum dignitate vel
+            beneficio, virtute dictae gratiae tibi debito, retinere non posses, licet illud resignaveris aut sis resignare paratus. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e76-Dd1e172">
+          <head xml:id="kdhaWs-d1e76-Hd1e174">Caput 5</head>
+          <p xml:id="kdhaWs-d1e76-d1e177"> Gratia super vacaturo non comprehendit beneficium, post datam in substantia creatum. H. d. Io. de Imol. </p>
+          <p xml:id="kdhaWs-d1e76-d1e180">
+            <ref xml:id="kdhaWs-d1e76-Rd1e182">Idem. </ref>
+             Literas nostras, super conferendo tibi beneficio vacaturo directas, ad beneficium, post datam ipsarum creatum, statuimus non extendi. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

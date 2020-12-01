@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS III</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS III</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e87">
+        <head xml:id="kdhaWs-d1e87-Hd1e102">TITULUS III</head>
+        <head xml:id="kdhaWs-d1e87-Hd1e105" type="question-title">&gt;DE ELECTIONE ET ELECTI POTESTATE.</head>
+        <div xml:id="kdhaWs-d1e87-Dd1e108">
+          <head xml:id="kdhaWs-d1e87-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e87-d1e113"> Religiosus eligi non potest ad praelaturam non episcopalem alterius religionis vel habitus; si contra fiat, est irritum. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e116">
+            <ref xml:id="kdhaWs-d1e87-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Quum rationi non congruat, ut homines disparis professionis vel habitus simul in eisdem monasteriis socientur: prohibemus, ne religiosus aliquis in abbatem vel praelatum alterius
+            religionis vel habitus de cetero eligatur. Quodsi secus actum exstiterit: sit eo ipso irritum et inane. Per hoc autem, quin religiosus in episcopum saecularis vel cuiuslibet regularis
+            ecclesiae licite possit eligi, non intendimus prohibere. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e123">
+          <head xml:id="kdhaWs-d1e87-Hd1e125">Caput 1</head>
+          <p xml:id="kdhaWs-d1e87-d1e128"> Coetus cardinalium sede vacante iurisdictionem papalem non exercet, nisi in quantum permittit concilium Lugdunense; nec illud vel eius partem alterare
+            potest. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e87-d1e131"> §. 1. Officium camerarii vel poenitentiario-rum Papae durat eo mortuo. Qui si deficiant, poterit coetus cardinalium pro tempore vacationis alios subrogare.
+            Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e87-d1e134"> §. 2. Determinat, dioecesim intelligi id, quod in concilio dicitur de territorio et districtu. Statuit, moriente Papa extra curiam, ipsius electionem fieri
+            debere in loco, ubi erat causarum et literarum audientia, licet suspensa; nisi prius ordinatum esset de curia transferenda. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e87-d1e137"> §. 3. Providet casui, quo contingeret cardinales omnes exire conclave. — </p>
+          <p xml:id="kdhaWs-d1e87-d1e141"> §. 4. Statuit, cardinales per exceptionem excommunicationis, suspensionis vel interdicti ab electione non repelli. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e87-d1e144"> §. 5. Electos et alios, qui mittere vel ire tenentur ad curiam, adstringit ad id sede vacante. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e147">
+            <ref xml:id="kdhaWs-d1e87-Rd1e149">Idem.</ref>
+             Ne Romani electioni Pontificis indeterminata opinionum diversitas aliquod possit obstaculum vel dilationem afferre: nos, inter cetera praecipue attendentes, quod lex superioris per
+            inferiorem tolli non potest, opinionem adstruere, sicut accepimus satagentem, quod constitutio felicis recordationis Gregorii Papae X. praedecessoris nostri, circa electionem praefatam
+            edita in concilio Lugdunensi , per coetum cardinalium Romanae ecclesiae ipsa vacante modificari possit, corrigi vel immutari , aut quicquam ei detrahi sive addi, vel dispensari
+            quomodolibet circa ipsam seu aliquam eius partem, aut eidem etiam renunciari per eum, tanquam veritati non consonam de fratrum nostrorum consilio reprobamus, irritum nihilominus et inane
+            decernentes, quicquid potestatis aut iurisdictionis, ad Romanum, dum vivit, Pontificem pertinentis, (nisi quatenus in constitutione praedicta permittitur,) coetus ipse duxerit eadem
+            vacante ecclesia exercendum. </p>
+          <p xml:id="kdhaWs-d1e87-d1e153"> §. i. Eo tamen proviso, quod, si eiusdem ecclesiae camerarium, aut maiorem vel aliquos alios ex </p>
+          <p xml:id="kdhaWs-d1e87-d1e156"> poenitentiariis, (quorum officium per obitum eiusdem Pontificis nolumus exspirare,) per mortem vel alias deficere quovis modo contingat, valeat idem coetus
+            ad tempus vacationis huiusmodi pro numero deficientium, vel ampliori etiam, quantum ad poenitentiarios, si hoc eidem coetui concorditer expedire videbitur, alios subrogare. </p>
+          <p xml:id="kdhaWs-d1e87-d1e159"> §. 2. Sane, quum iuxta constitutionem praedictam, Papa extra civitatem, in qua cum sua erat curia, moriente, in civitate, in cuius districtu seu territorio
+            moritur, sit regulariter successoris electio celebranda: districtus seu territorii nomine dioecesim hoc casu intelligendam fore censemus, eo tamen adiecto, quod, si, in certo loco causarum
+            et literarum apostoli carum audientia remanente, Papam alibi mori contingat, non ibi, sed ubi praedicta fuerit audientia, memorata electio celebretur, etiamsi eadem audientia tempore
+            mortis huius vacare noscatur; nisi forsan ante mortem eandem ordinatum esset per Papam de curia transferenda, quo casu servetur provisio constitutionis praedictae. </p>
+          <p xml:id="kdhaWs-d1e87-d1e163"> §. 3. Porro, si Romano non electo Pontifice cardinales omnes simul vel successive (quod absit) exire contingeret conclave deputatum eisdem: hi, ad quos
+            pertinet exsecutio constitutionis praedictae, illos ex ipsis, quibus infirmitas corporis aut nota debilitas excusationem non dabit, idem conclave, quam cito poterunt, rein-trare
+            compellant, poenas in dicta constitutione contentas, nisi hoc fecerint, incursuri. Cardinales autem huiusmodi conclave reintrantes ad electionem iam dictam procedant, et alias
+            constitutionem praefatam observent secundum statum, in quo erant in eodem conclavi, quando ipsum, ut praemittitur, exiverunt. </p>
+          <p xml:id="kdhaWs-d1e87-d1e166"> §. 4. Ceterum, ut circa electionem praedictam eo magis vitentur dissensiones et schismata, quo minor eligentibus aderit dissidendi facultas: decernimus, ut
+            nullus cardinalium cuiuslibet excommunicationis suspensionis aut interdicti praetextu a dicta valeat electione repelli, iuribus aliis circa electionem eandem hactenus editis plene in suo
+            robore duraturis. </p>
+          <p xml:id="kdhaWs-d1e87-d1e169"> §. 5. Verum, quia tam ex provisis remediis quam ex orationibus ad Deum super huius negotio effundendis, quod breviter huiusmodi celebretur electio,
+            praesumendum est probabiliter et sperandum: statuimus, ut electi et alii, qui ex quacunque causa ad sedem apostolicam venire vel mittere sunt adstricti, ad ipsam, quum vacat, ac si non
+            vacaret, venire vel mittere teneantur. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e173">
+          <head xml:id="kdhaWs-d1e87-Hd1e175">Caput 3</head>
+          <p xml:id="kdhaWs-d1e87-d1e178"> Primo ponit formam, secundum quam appellans appellationem intimat appellato, ut per ipsam causa beneficialis ad curiam devolvatur. Secundo providet, quum
+            appellatus vel ipsius specialis procurator nequit haberi. Tertio providet, quum per metum appellati vel suorum intimatio fieri non potest. Quarto vitiat intimationem aliter factam. Quinto
+            prorogat hunc modum intimandi ad alios casus. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e181">
+            <ref xml:id="kdhaWs-d1e87-Rd1e183">Idem .</ref>
+             Causam electionis, postulationis seu provisionis per appellationem, ab ipsa vel occasione ipsius ad sedem apostolicam emissam, tunc demum ad sedem eandem devolvi censemus, quum in
+            appellati aut procuratoris eiusdem, in ipsa causa specialiter constituti, praesentia interposita fuerit, aut eorum alteri infra mensem ab interpositione ipsius, vel saltem post lapsum
+            eiusdem mensis, (quam cito commode fieri poterit,) legitime intimata, porrecto videlicet sibi sub scriptura authentica vel perlecto illius tenore, et copia modo consimili, si petita
+            fuerint , inde facta. Quodsi forsan appellatum abesse, et procuratorem talem non inveniri contingat: in domo, quam ipse appellatus habitare communiter consuevit, vel (si domus eadem in
+            remotis exsistat,) in ecclesia cathedrali, in cuius civitate vel dioecesi consistit beneficium, et nihilominus utroque casu in ecclesia vel beneficio, de quo agitur, volumus appellationem
+            huiusmodi publicari, ac de ipsa, quandocunque petitum fuerit, copiam modo praemisso fieri appellato. Verum, si propter appellati aut suorum metum vel potentiam intimatio fieri nequeat, (ut
+            praefertur:) appellationem eandem in loco aliquo publico sic solenniter volumus publicari, quod ad appellati seu eius procuratoris notitiam possit verisimiliter pervenire. Intimatio vero
+            aliter facta omni careat iuris effectu. Nec causa per appellationem eandem ad sedem censeatur devoluta praedictam, nisi ad appellatum eius plena et certa notitia infra tempus praedictum
+            aliter pervenisset. Idem quoque in aliis casibus observari volumus, in quibus requiritur intimatio facienda. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e189">
+          <head xml:id="kdhaWs-d1e87-Hd1e191">Caput 4</head>
+          <p xml:id="kdhaWs-d1e87-d1e194"> Decretalis Ut circa locum non habet, quum appellans ius suum vel ecclesiae directe prosequitur, sed quum in formam vel personas opponit crimina vel defectus;
+            quorum circumstantias si non specificat, super illis non auditur, etiamsi iuret, illas didicisse de novo. Nec etiam in eadem causa super illis auditur alius non appellans, et prosequens
+            commune, non proprium interesse; potest tamen assistere appellanti. Appellans, qui non servat formam, etiamsi appellationi renunciat, per viam querelae non prosequitur obiecta, nec etiam
+            alia, nisi in casibus exceptis. Omissio formae licet appellantem a probatione repellat: non tamen infirmat probationem, super his legitime factam adversarii confessione vel aliter. H. d.
+            Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e197">
+            <ref xml:id="kdhaWs-d1e87-Rd1e199">Idem .</ref>
+             Constitutionem „Ut circa,“ editam in concilio Lugdunensi , locum decernimus non habere, quando quae opponuntur directe respiciunt ius ecclesiae vel opponentis personae, sed tantum ubi per
+            competitorem vel oppositorem quemlibet appellantem in formam aut personas defectus vel crimina opponuntur. Ceterum quum circa crimina vel defectus debitam circumstantiarum specificationem
+            praedictus omittit appellans, non est postmodum in prosecutione negotii super his audiendus, etiamsi circumstantias huiusmodi vel probationes earum per iuramentum asserat ad se pervenisse
+            de novo. Sane, si quis, cuius interest, ab electione, postulatione vel provisione duxerit appellandum, opponendo crimina vel defectus, forma dictae constitutionis omissa: eodem postmodum
+            appellationem huiusmodi pro-sequente, alius superveniens non appellans contra appellatum in eadem causa principaliter admitti non debet pro interesse communi eosdem articulos prosequendo,
+            licet appellanti possit assistere, ne colludat; non tamen ei propter hoc prosecutionem interesse proprii denegamus. Insuper, si appellans ab electione, postulatione vel provisione per viam
+            querelae simplicis causam agat, vel eam appellato agente defendat: repellitur ab obiectibus in appellatione sua expressis et aliis, nisi constiterit, ipsum formam servasse praedictam,
+            praeterquam in casibus in constitutione praemissa exceptis, etiamsi appellationem suam non prosequatur, nec exhibeat, et illa se asserat nolle uti, dum tamen de ipsa coram iudice fiat
+            fides, quia per ipsam ius repellendi eundem adversario est quaesitum. Illis vero constitutionis formae omissio, licet appellantem ab obiectibus in formam electionis vel personas eligentium
+            vel electi propositis vel proponendis et eorum facienda probatione repellat; probationem tamen factam super his per adversarii confessionem, vel alias legitime, non infirmat. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e204">
+          <head xml:id="kdhaWs-d1e87-Hd1e206">Caput 5</head>
+          <p xml:id="kdhaWs-d1e87-d1e209"> Sine speciali licentia Papae nullus providere potest ecclesiae cathedrali, clero carenti et populo Christiano. Religiosus per praelatum licentiari non debet,
+            ut tali provisioni consentiat. Consentiens, etiamsi fuerit consecratus, priori praelato subiacet, nec in episcopum recipitur, nec ad aliquem honorem promovetur. Quae contra fient irrita
+            decernit. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e212">
+            <ref xml:id="kdhaWs-d1e87-Rd1e214">Idem .</ref>
+             In plerisque ecclesiis nedum (quod dolentes referimus) praesidio facultatum privatis, sed et clero carentibus et populo Christiano, multos frequenter et religiosos praesertim improvida
+            superiorum provisio ad pontificatus assumit honorem, qui nec, ut expediret, prodesse, nec prae-esse, ut deceret, valentes, instabilitate vagationis et mendicitatis opprobrio serenitatem
+            pontificalis obnubilant dignitatis. Volentes igitur contra temeritatem tam facientium, quam ut frequentius recipientium provisiones huiusmodi providere, de consilio fratrum nostrorum
+            statuimus, ut nullus de cetero, quantacunque dignitate praepollens, nisi speciali super hoc auctoritate sedis apostolicae fulciatur, de pastore provideat cathedrali ecclesiae, sibi
+            qualitercunque subiectae, quae clero careat et subditis Christianis, nullusque religiosus a suo unquam quod provisioni tali consentiat, licentietur praelato. Quodsi licentiatus etiam
+            huiusmodi provisioni consenserit, et in episcopum se fecerit aut permiserit consecrari: in episcopali nullatenus recipiatur honore, sed in tantae ambitionis poenam sub religionis aut
+            monasterii sui praelato semper sic degat humilis iaceatque prostratus, quod nullus eidem in religione sua vel extra ad gradum honoris vel administrationis cuiuslibet sit adscensus. Nos
+            enim, quicquid contra praemissa vel aliquod praemissorum contigerit attentari, irritum esse decernimus et inane, contraria quacunque consuetudine non obstante. Sane circa praefatas
+            ecclesias praemissa sic specialiter providenda decernimus , quod circa provisionem quarumlibet aliarum facultatem superiorum nec coarctare intendimus, nec ultra iuris communis limites
+            ampliare. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e219">
+          <head xml:id="kdhaWs-d1e87-Hd1e221">Caput 6</head>
+          <p xml:id="kdhaWs-d1e87-d1e224"> Capitulum Quorundam quoad discordiam et minoritatem numeri, intelligitur quoad voces facti, non secundum iuris fictionem. II. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e227">
+            <ref xml:id="kdhaWs-d1e87-Rd1e229">Idem.</ref>
+             Quod circa religiosorum electiones super discordia et minoritate numeri Bonifaciana constitutione cavetur, de discordia et numeri minoritate, quae in facto, non in fictione vel iuris
+            effectu consistuntdebere intelligi declaramus. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e234">
+          <head xml:id="kdhaWs-d1e87-Hd1e236">Caput 7</head>
+          <p xml:id="kdhaWs-d1e87-d1e239"> Emolumentum ex iurisdictione, sigillo curiae vel alias pertinens ad praelatum Cathedralis ecclesiae vel collegiatae, ea vacante, non obstante consuetudine,
+            deductis expensis reservandum est successori, nisi tunc certae dignitati competat iurisdictio cum ipsius emolumento. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e87-d1e242">
+            <ref xml:id="kdhaWs-d1e87-Rd1e244">Idem.</ref>
+             Statutum super bonis, a praelatis cathedralium regularium et collegiatarum ecclesiarum dimissis, aut obvenientibus tempore vacationis earum, futuris successoribus fideliter reservandis
+            editum, locum declaramus habere in omni emolumento, quod provenit ex iurisdictione, et sigillo curiae ecclesiasticae vel saecularis aut alias undecunque, quod ad praelatos, ecclesiis non
+            vacantibus, pertineret, consuetudine qualibet contraria non obstante, ita tamen, quod in istis et similibus rationabiles deducantur expensae. Ceterum ad singulares personas, ad quas
+            ratione dignitatum, quas obtinent, iurisdictio cum eius emolumento devolvitur sede vacante, de consuetudine, privilegio vel iure alio speciali nolumus praesentem constitutionem extendi.
+          </p>
+        </div>
+        <div xml:id="kdhaWs-d1e87-Dd1e249">
+          <head xml:id="kdhaWs-d1e87-Hd1e251">Caput 8</head>
+          <p xml:id="kdhaWs-d1e87-d1e254"> Concessio licentiae generalis, religioso de consentiendo electioni factae vel fiendae, non valet. Ioann. de Imol. </p>
+          <p xml:id="kdhaWs-d1e87-d1e257">
+            <ref xml:id="kdhaWs-d1e87-Rd1e259">Idem.</ref>
+             Quum concessa religioso a superiore suo licentia, ut electioni vel provisioni, si quam de ipso contigerit fieri, suum dare possit assensum, ambitionis vitio viam paret; nullius eam
+            exsistere volumus firmitatis. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

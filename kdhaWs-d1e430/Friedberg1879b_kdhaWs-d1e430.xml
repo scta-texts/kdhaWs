@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS VII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS VII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e430">
+        <head xml:id="kdhaWs-d1e430-Hd1e102">TITULUS VII.</head>
+        <head xml:id="kdhaWs-d1e430-Hd1e105" type="question-title"> DE SEPULTURIS. </head>
+        <div xml:id="kdhaWs-d1e430-Dd1e108">
+          <head xml:id="kdhaWs-d1e430-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e430-d1e113"> Excommunicati sunt etiam exempti, qui in casibus non permissis defunctos sepeliunt in coemeteriis tempore interdicti, vel qui scienter sepeliunt
+            excommunicatos publice, nominatim interdictos, vel manifestos usurarios. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e430-d1e116">
+            <ref xml:id="kdhaWs-d1e430-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Eos, qui propriae temeritatis audacia defunctorum corpora, non sine contemptu clavium ecclesiae, in coemeteriis interdicti tempore, in casibus non concessis a iure, vel excommunicatos
+            publice, aut nominatim interdictos, vel usurarios manifestos scienter sepelire praesumunt, decernimus ipso facto excommunicationis sententiae subiacere, a qua nullatenus absolvantur, nisi
+            prius ad arbitrium dioecesani episcopi eis, quibus per praemissa fuerit iniuria irrogata, satisfactionem exhibuerint competentem, nullo eis circa praemissa exemptionis vel quovis alio
+            privilegio, sub quacunque forma verborum concesso, aliqualiter suffragante. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e430-Dd1e123">
+          <head xml:id="kdhaWs-d1e430-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e430-d1e128"> Pars, quae titulum respicit, hoc intendit: Praedicatores et Minores in locis suis libere sepeliunt illos, qui hoc libere elegerint; de funeralibus tamen, et
+            quibuscunque obventionibus et relictis, etiam de quibus alias debetur canonica, quartam et non ultra solvent ecclesiae parochiali. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e430-d1e131">
+            <ref xml:id="kdhaWs-d1e430-Rd1e133">Idem in eodem.</ref>
+             Dudum a Bonifacio Papa VIII. praedecessore nostro infra scripta edita decretali, Benedictus Papa XI. praedecessor noster aliam illius revocatoriam promulgavit, quae quia, ut probavit
+            effectus, nedum pacis ab auctore ipsius speratae fructum non attulit, quin immo discordiae, pro qua sedanda processerat, fomentum non modicum ministravit, nos, eam omnino cassantes, aliam
+            a praefato Bonifacio editam sacro instante et approbante concilio innovamus, subiicientes tenorem illius, qui dignoscitur esse talis: „ Bonifacius episcopus servus servorum Dei ad
+            perpetuam rei memoriam . </p>
+          <p xml:id="kdhaWs-d1e430-d1e137"> Super cathedram praeeminendae pastoralis divina disponente clementia constituti, etsi multis et arduis, quae in amplum Romanae curiae alveum undique
+            confluunt quasi torrens, praegravemur negotiis, curis excitemur innumeris, cogitationibus plurimis distrahamur: circa id tamen ferventibus votis intendimus, vacamus instantius, ac operosae
+            studium sollicitudinis impertimur, ut ad divini nominis gloriam, exaltationem catholicae fidei, et profectum fidelium animarum, (praecisis radicitus dissidiorum vepribus, et litigiorum
+            anfractibus omnino subductis,) inter ecclesiarum antistites ad curam et regimen gregis dominici deputatos, ceterasque personas, quas ordo clericalis includit, pacis tranquillitas vigeat,
+            fervor caritatis exaestuet, invalescat concordiae unitas, animorum identitas perseveret. Scimus enim, et ex evidentia facti colligimus, quod non nisi in pacis tempore bene colitur pacis
+            auctor, nec ignoramus, quod dissensiones et scandala pravis actibus aditum praeparant, rancores et odia suscitant, et illicitis moribus ausum praebent. Ab olim siquidem inter praelatos et
+            rectores, seu sacerdotes ac clericos parochialium ecclesiarum per diversas mundi provincias constitutos ex una parte, et Praedicatorum et Minorum ordinum fratres ex altera , (pacis aemulo,
+            satore zizaniae procurante,) gravis et periculosa discordia exstitit suscitata super praedicationibus fidelium populis faciendis, eorum confessionibus audiendis, poenitentiis iniungendis
+            eisdem, et tumulandis defunctorum corporibus, qui apud fratrum ipsorum ecclesias sive loca noscuntur eligere sepulturam. Nos autem, pii patris more laudabili moleste ferentes incommoda
+            filiorum, reducentes ad exactae considerationis examen, ac infra pectoris claustra sollicite revolventes, quam sit plena periculis, quam onusta dispendiis, quamque in divinae maiestatis
+            conspectu reddatur exosa discordia supra dicta, et propterea intendentes paternae sollicitudinis studio illam prorsus evellere, ac omnimode submovere, nullis unquam futuris temporibus
+            favente Domino suscitandam, grandi quoque desiderio cupientes, ut huiusmodi negotium, quod potissime insidet cordi nostro, finem salubrem et celerem per apostolicae solertiae studium
+            consequatur, diligenti cum fratribus nostris deliberatione praehabita super eo, ad honorem Dei et exaltationem catholicae fidei, quietum statum partium praedictarum, ac salutis animarum
+            fidelium incrementum, de ipsorum fratrum consilio auctoritate apostolica statuimus et ordinamus, ut dictorum ordinum fratres in ecclesiis et locis eorum, ac in plateis communibus libere
+            valeant clero et populo praedicare ac proponere verbum Dei, hora illa duntaxat excepta, in qua locorum praelati praedicare voluerint, vel coram se facere solenniter praedicari, in qua
+            praedicare cessabunt, praeterquam si aliud de praelatorum ipsorum voluntate processerit ac licentia speciali. In studiis autem generalibus, ubi sermones ad clerum ex more fieri solent
+            diebus illis, quibus praedicari solenniter consuevit, ad funera etiam mortuorum, et in festis specialibus sive peculiaribus eorundem fratrum, possunt iidem fratres et liceat eis libere
+            praedicare, nisi forte illa hora, qua solet ad clerum in praedictis locis Dei verbum proponi, episcopus vel praelatus superior clerum ad se generaliter convocaret, aut ex aliqua ratione
+            vel causa urgente clerum ipsum duceret congregandum. In ecclesiis autem parochialibus fratres illi nullatenus audeant vel debeant praedicare, vel proponere verbum Dei, nisi fratres
+            praedicti a parochialibus sacerdotibus invitati fuerint vel vocati, et de ipsorum beneplacito et assensu, seu petita licentia fuerit et obtenta, nisi episcopus vel praelatus superior per
+            eosdem fratres praedicari mandaret. Statuimus etiam et ordinamus auctoritate praedicta, ut in singulis civitatibus et dioecesibus, in quibus loca fratrum ipsorum consistere dignoscuntur,
+            vel in civitatibus et dioecesibus locis ipsis vicinis, in quibus loca huiusmodi non habentur, magistri, priores provinciales praedicatorum aut eorum vicarii et generales , et provinciales
+            ministri et custodes Minorum ordinum praedictorum, ad praesentiam praelatorum eorundem locorum se conferant per se vel per fratres, quos ad hoc idoneos fore putaverint, humiliter petituri,
+            ut fratres, qui ad hoc electi fuerint, in eorum civitatibus et dioecesibus confessiones subditorum suorum confiteri sibi volentium audire libere valeant, et huiusmodi confitentibus, (prout
+            secundum Deum expedire cognoverint,) poenitentias imponere salutares, atque eisdem absolutionis beneficium impendere de licentia, gratia et beneplacito eorundem. Ac deinde praefati
+            magistri,priores ,provinciales et ministri ordinum praedictorum eligere studeant personas sufficientes, idoneas, vita probatas, discretas, modestas atque peritas ad tam salubre ministerium
+            et officium exsequendum, quas [sic ab ipsis electas repraesentent vel faciant praesentari praelatis, ut de eorum licentia, gratia et beneplacito in civitatibus et dioecesibus eorundem
+            huiusmodi personae sic electae confessiones confiteri sibi volentium audiant , imponant poenitentias salutares, et beneficium absolutionis in posterum impendant, prout superius est
+            expressum, extra civitates et dioeceses, in quibus fuerint deputatae, per quas eas volumus et non per provincias deputari, confessiones nullatenus auditurae. Numerus autem personarum,
+            assumendarum ad huiusmodi officium exercendum, esse debet, prout universitas cleri et populi ac multitudo vel paucitas exigit eorundem. Et si iidem praelati petitam licentiam confessionum
+            huiusmodi audiendarum concesserint, illam praefati magistri, ministri et alii cum gratiarum recipiant actione, dictaeque personae sic electae commissum sibi officium exsequantur. Quodsi
+            forte iam dicti praelati quemquam ex dictis fratribus, praesentatis eisdem, ad huiusmodi officium nollent habere, vel non ducerent admittendum: eo amoto vel subtracto loco ipsius similiter
+            eisdem praesentandus praelatis possit et debeat alius subrogari. Si vero iidem praelati praefatis fratribus, ad confessiones, (ut praemittitur,) audiendas electis, huiusmodi exhibere
+            licentiam recusarint : nos exnunc ipsis, ut confessiones sibi confiteri volentium libere liciteque audire valeant, et eisdem poenitentias imponere salutares, atque eisdem beneficium
+            absolutionis impertiri, gratiose concedimus de plenitudine apostolicae potestatis. Per huiusmodi autem concessionem nequaquam intendimus personis seu fratribus ipsis , ad id taliter
+            deputatis, potestatem in hoc impendere ampliorem , quam in eo curatis vel parochialibus sacerdotibus est a iure concessa, nisi forsan eis ecclesiarum praelati uberiorem in hac parte
+            gratiam specialiter ducerent faciendam. Huiusmodi quoque statuto et ordinationibus nostris adiicimus, ut fratres dictorum ordinum in ecclesiis vel locis suis ubilibet constitutis liberam,
+            (ut sequitur,) habeant sepulturam, videlicet, quod omnes ad eam recipere valeant, qui sepeliri elegerint in locis et ecclesiis memoratis. Verum ne parochiales ecclesiae et ipsarum curati
+            sive rectores, qui ministrare habent ecclesiastica sacramenta, quibus noscitur de iure competere, praedicare seu proponere verbum Dei, et confessiones audire fidelium, debitis et
+            necessariis beneficiis defraudentur, quum operariis mercedis exhibitio debeatur: auctoritate apostolica constituimus et ordinamus eadem, ut dictorum ordinum fratres de obventionibus
+            omnibus tam funeralibus quam quibuscunque et quomodocunque relictis, distincte vel indistincte, ad quoscunque certos vel determinatos usus, de quibus etiam quarta sive canonica portio dari
+            sive exigi non consuevit vel non debet de iure, nec non de datis vel qualitercunque donatis in morte seu mortis articulo in infirmitate donantis vel dantis, de qua decesserit ,
+            quomodocunque directe vel indirecte fratribus ipsis vel aliis pro eisdem, quartam partem, (quam auctoritate apostolica taxamus et etiam limitamus,) parochialibus sacerdotibus et
+            ecclesiarum rectoribus seu curatis largiri integre teneantur, facturi et curaturi, quod nec alii, nec aliis, a quibus quarta huiusmodi minime deberetur , ad ipsorum fratrum utilitatem vel
+            commodum huiusmodi fiant relicta, aut in eos taliter data vel donata procedant, seu quod in morte vel ab infirmis huiusmodi dandum vel donandum fratribus ipsis exsisteret, in eorundem
+            dantium vel donantium sanitate sibi dari vel donari procurent. In quibus per ipsos vitandis eorum intendimus conscientias onerare, ut, si, (quod absit,) per fratres ipsos dolo vel fraude
+            quicquam in hatc parte agi fortasse contigerit, (praeter id, quod eos propterea dictis sacerdotibus, rectoribus et curatis teneri volumus,) etiam districta ratio in extremi iudicii examine
+            requiratur ab eis . Ultra portionem autem huiusmodi nihil valeant parochiales rectores, curati et praelati exigere supra dicti, neque illis dicti fratres amplius impendere sint adstricti,
+            neque ad id a quoquam possint aliqualiter coerceri. Nos etenim , (ut in cunctis aequaliter et pacifice favente Domino procedatur,) universa privilegia, gratias, indulgentias, verbo seu
+            scripto sub quacunque forma vel expressione seu conceptione verborum a nobis vel praedecessoribus nostris Romanis Pontificibus ctticunque ordinum praedictorum concessa, nec non
+            consuetudines, conventiones, statuta et pacta, in quantum sunt praemissis vel alicui praemissorum contraria, ea penitus revocamus, vacuamus, cassamus et irritamus, quin immo cassa, vacua
+            et irrita nunciamus, et decernimus nullius prorsus exsistere firmitatis. Ceterum universos ecclesiarum praelatos, cuiuscunque praeeminentiae, status vel dignitatis exsistant, ac sacerdotes
+            parochiales et curatos sive rectores praedictos, praesentium tenore rogamus et hortamur attente, nihilo-minusque eis districte praecipiendo mandamus , quatenus, pro divina et apostolicae
+            sedis reverentia praedictos ordines et professores eorum habentes affectu benevolo commendatos, fratribus ipsis non se difficiles, graves, duros aut asperos, sed potius favorabiles,
+            propitios ac benignos piaque munificentia liberales se studeant exhibere, sic eos in praedicationis officio et propositionibus verbi Dei, ac in omnibus aliis supra dictis tanquam
+            cooperatores eorum idoneos et laborum suorum participes prompta benignitate recipiant ac affectuose admittere non omittant, ut proinde illis aeternae beatitudinis praemium augeatur, et
+            animarum salutis incrementa felicia procurentur. Nec ipsos lateat, quod, si secus ab eis agi fortasse contigerit in hac parte, apostolicae sedis benignitas, quae ordines et professores
+            eosdem ubere favore prosequitur et gerit in visceribus caritatis, contra eos non immerito turbaretur, nec eadem aequanimiter pati posset, quin super hoc provisionis opportunae remedium
+            adhiberet, ipsosque nihilominus coelestis indignatio principis digna pro meritis rependentis, cuius obsequia fratrum ipsorum sedulitas curiosa prosequitur, minime praeteriret.^ </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

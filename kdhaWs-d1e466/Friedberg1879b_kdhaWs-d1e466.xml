@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> TITULUS X. </title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title> TITULUS X. </title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e466">
+        <head xml:id="kdhaWs-d1e466-Hd1e102"> TITULUS X. </head>
+        <head xml:id="kdhaWs-d1e466-Hd1e105" type="question-title">DE STATU MONACHORUM VEL CANONICORUM REGULARIUM. </head>
+        <div xml:id="kdhaWs-d1e466-Dd1e108">
+          <head xml:id="kdhaWs-d1e466-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e466-d1e113"> Praemittit exordium breve, in quo constitutionis causam ponit, et generale interdictum monachorum nigrorum circa exquisitum ornatum, vel notabilem excessum
+            in vestibus, cibis, potibus, equitaturis et lectisterniis. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e116"> §. 1. Specialiter providet circa vestes habitui proximas, almutias, caputia, calceamenta, zonas, cultellos, calcaria, sellas et frenos ipsorum, et ultimo
+            circa habitum superiorem. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e119"> §.2. Providet circa monachorum confessionem, communionem, expositionem regulae, et instructionem novitiorum. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e122"> §. 3. Providet circa venationes et aucupationes monachorum. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e126"> §. 4. Punit certos praedictorum transgressores, omnes alios puniri iubens iuxta disciplinam regulae. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e129"> §. 5. Providet contra professos, euntes ad curias principum, vel alias vagantes, vel infra septa monasterii arma tenentes. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e132"> §. 6. Providet circa monachorum solitudines. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e135"> §. 7. Providet de priorum aetate, et ipsorum sacerdotio, professione et habitatione. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e138"> §. 8. Providet de monachorum ordinatione et ipsorum doctrina. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e466-d1e141"> §. 9. Confirmat et innovat decretalem supra eodem: Quum ad monasterium, et cap. In singulis. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e466-d1e145">
+            <ref xml:id="kdhaWs-d1e466-Rd1e147">Clemens V. in concilio Viennensi .</ref>
+             Ne in agro dominico, sacra videlicet monachorum nigrorum religione, indecorum aliquid obrepat, aut vitiosum quicquam perniciose in segetem coalescat, sed ut in illa potius flores honoris
+            et honestatis fructus in ubertate succrescant: eis in vestibus inordinatum omnem seu exquisitum ornatum aut cultum, nec non in cibis et potibus, equitaturis et lectisterniis quemvis
+            notabilem interdicentes excessum </p>
+          <p xml:id="kdhaWs-d1e466-d1e151"> §. i. Statuimus, ut superior vestis ipsorum habitui proxima nigri, bruni aut albi coloris exsistat iuxta morem, apud eos servari solitum in regione, qua
+            degunt. Nec in qualitate panni regularis excedatur modestia, nec quaeratur quod pretiosius et subtilius, sed quod utilius valet inveniri. Sit etiam vestis ipsa rotunda per circuitum et non
+            scissa , nec longitudine nimia aut brevitate notanda, largas etiam manicas habeat usque ad pugnum protensas, non consutitias vel quomodolibet botonatas. Almutiis de panno nigro vel
+            pellibus caputiorum loco cum caputiis habitus, quem gestaverint, sint contenti, iuxta tamen dispositionem abbatis scissis super humeros et honestis caputiis uti possint . In vestibus
+            sendatum pro fodera-turis non portent. Estivalibus largis aut botis altis pro calceamentis utantur. Nullus zonam, cultellum, calcaria cum ornatu deferre, aut cum sella, clavorum ornatu
+            decorata superfluo vel nimis alias sumptuosa, sive cum freno ferraturam ad ornatum habente equitare praesumat. Rursus in locis, in quibus fuerit congregatio duodecim monachorum aut supra,
+            infra septa monasterii abbas, prior aut alius praesidens portet flocum de panno pro flocis aut cucullis in ipso monasterio consueto, monachi vero alii in monasteriis, in quibus flocos
+            soliti sunt portare, debent etiam uti eis. In aliis autem monasteriis et infra domos et alios prioratus, ubi non est tanta congregatio monachorum, cucullas clausas deferant et honestas.
+            Quum vero abbates, priores aut alios praesidentes et monachos alios extra monasterium proficisci continget , flocum, cucullam aut capam clausam habeant, et subtus capam, si eam
+            portaverint, cucullam deferant, aut, si maluerint, scapulare. Quum autem ad serviendum in divinis officiis albis vel sacris vestibus induentur, aut quum occupabuntur in operibus, uti eis
+            liceat scapulari. Verum ne ex diversa acceptione , quam in diversis regionibus huiusmodi vocabula, flocus videlicet et cuculla, dicuntur habere, haesitandi circa praemissa materia
+            relinquatur: cucullae nomine habitum longum et amplum, sed manicas non habentem, nomine vero floci habitum, qui longas et amplas habet manicas, nos intelligere declaramus. </p>
+          <p xml:id="kdhaWs-d1e466-d1e154"> §. 2. Sane singulis mensibus tam in monasteriis quam extra sublata occasione quacunque ad confessionem saltem semel accedant omnes et singuli monachi, et in
+            prima dominica mensis cuiuslibet in monasteriis semper communicent, nisi ex causa forte, quam abbati, priori aut poenitentiariis monasteriorum non differant intimare, eorumque iudicio vel
+            abstineant vel accedant. Regula quoque quum in capitulo legitur, ab illo, qui praeest ipsi capitulo, vel alio, cui hoc ipse iniunxerit, propter iuniores vulgariter exponatur. Novitiis
+            etiam fidelis deputetur instructor tam in divinis officiis quam in observantia regulari. </p>
+          <p xml:id="kdhaWs-d1e466-d1e157"> §. 3. Porro a venationibus et aucupationibus omnes semper abstineant, nec eis interesse, aut canes vel aves venaticos per se vel alios tenere praesumant,
+            nec a familiaribus secum morantibus teneri permittant, nisi saltus, vivaria velgarenas proprias , vel ius venandi in alienis haberent, in quibus cuniculi vel ferae aliae forsan essent, quo
+            casu hoc eis permittitur, dum tamen infra monasteria seu domos, quas inhabitant, aut eorum clausuras venaticos canes non teneant, nec venationi praesentiam exhibeant personalem. </p>
+          <p xml:id="kdhaWs-d1e466-d1e160"> §. 4. Si quis autem praemissorum temerarius exstiterit violator, regulari sub-iaceat disciplinae, et nihilominus, si sotulares non corrigiatos et altos aut
+            caputia, (ut praefertur,) non fissa portare praesumpserit , siquidem abbas vel prior, non habens abbatem proprium, fuerit : per annum se noverit a beneficiorum collatione suspensum; si
+            vero alius fuerit, ab administra-tione, si quam obtinet, sit per annum suspensus. Quodsi nullam habeat, eo ipso per annum reddatur inhabilis ad administrationem et ecclesiasticum
+            beneficium obtinendum. Si qui vero eorum venationi aut aucupationi clamose, vel alias cum canibus aut avibus ex proposito interfuerint: iuxta praemissam personarum distinctionem dictarum
+            suspensionis et inhabilitatis poenas per biennium ipso facto incurrant. Abbate autem vel priore a collatione, (ut praemittitur,) beneficiorum suspenso, ad priorem claustralem cum consilio
+            et assensu conventus vel maioris partis ipsius eorundem beneficiorum collatio devolvatur. </p>
+          <p xml:id="kdhaWs-d1e466-d1e163"> §. 5. Quia vero nonnulli monachorum ipsorum, (sicut accepimus,) suavi iugo observantiae regularis abiecto, interdum, propriis relictis monasteriis, se in
+            eis secure morari non posse fingentes, vel alio colore quaesito, per curias principum evagando discurrunt, et, nisi a praelatis eorum petita pensio vel subventio assignetur eisdem,
+            conspirantes in illos, eisque proditionem vel alia gravia imponentes, eos capi et incarcerari, ipsorumque monasteria comburi procurant, et interdum monasteriorum ipsorum bona in totum vel
+            in partem non modicam occupare praesumunt: nos, eorum in hac parte reprobis ausibus obviare volentes, hoc edicto perpetuo prohibemus, ne monachi aut regulares canonici, administrationem
+            aliquam non habentes, ad curias principum absque speciali praelatorum suorum licentia se conferre praesumant. Quodsi, ut suis praelatis aut monasteriis damnum aliquod inferant, ad dictas
+            curias se conferre praesumpserint: excommunicationis sententiam eos incurrere volumus ipso facto, praelatis eorum districte nihilominus iniungentes, ut ipsos a praedictarum curiarum
+            accessu, et aliis quibuslibet vagationibus et discursu diligenter compescere, ac super hoc non parentes eisdem severe corrigere non omittant. Praefatae quoque sententiae monachos infra
+            septa monasteriorum sine licentia abbatum suorum arma tenentes decernimus subiacere. </p>
+          <p xml:id="kdhaWs-d1e466-d1e167"> §. 6. Ad haec , praedecessorum nostrorum vestigiis inhaerentes, perpetuo prohibemus edicto, ne monachi singuli in singulis sibi commissis administrationibus
+            vel prioratibus habitare praesumant. Sed si proventus prioratuum seu administra-tionum huiusmodi duobus forte non suppetant, iidem prioratus seu administrationes, nisi per abbates ad
+            sustentationem duorum sufficientes reddantur, locis aliis vicinioribus ad eorum monasteria pertinentibus, vel ipsorum monasteriorum officiis, aut inter se invicem, prout erit commodius,
+            cum consilio et assensu abbatum per locorum I ipsorum ordinarios uniantur, monachis locorum, quae aliis ! unientur prioribus, ad claustrum primitus revocandis, et clericis servituris
+            ibidem, de locorum ipsorum proventibus provisione debita facienda. </p>
+          <p xml:id="kdhaWs-d1e466-d1e170"> §. 7. Ceterum prioratus conventuales alicui, nisi XXV. annum attigerit, alii vero curam animarum habentes, etsi cura ipsa per saeculares habeat presbyteros
+            exerceri, cuiquam, nisi XX. annum peregerit, conferri nequeant aut committi. Qui autem prioratus istos vel illos habuerint, infra annum, computandum a tempore collationis seu commissionis
+            sibi factae de eis, et possessionis eorum adeptae, vel infra vigesimum quintum aetatis suae annum, si ante annum ipsum non conventuales prioratus eis commissi fuerint aut collati, se
+            faciant ad sacerdotium promoveri. Quod si cessante rationabili causa non fecerint: eo ipso, nulla etiam monitione praemissa, praedictis prioratibus sint privati, qui ipsis iterum ea vice
+            nullatenus conferantur. Sane prioratus aliquis sive administratio committi alicui vel conferri non possit, nisi expresse professus fuerit ordinem monachalem, neque prioratus aut
+            administrationes extra monasteria obtinentes permittantur in monasteriis, sed teneantur in ipsis prioratibus seu administrationibus, (quacunque non obstante consuetudine,) residere, nisi
+            ex studiorum vel alia causa rationabili ad tempus forte ab huiusmodi residentia excusentur. </p>
+          <p xml:id="kdhaWs-d1e466-d1e173"> §. 8. Ad ampliationem autem cultus divini, statuimus, quod monachi quilibet ad monitionem abbatis se faciant ad omnes ordines sacros excusatione cessante
+            legitima promoveri. Rursus, ut ipsis monachis proficiendi in scientia via opportuna non desit, in singulis ipsorum monasteriis, quibus ad hoc suppetunt facultates, idoneus teneatur
+            magister, qui eos in primitivis scientiis instruat diligenter. </p>
+          <p xml:id="kdhaWs-d1e466-d1e176"> §. 9. Praemissa igitur omnia, et ea nihilominus, quae felicis recordationis Innocentius Papa III. praedecessor noster circa statum monachorum ipsorum pro
+            uberiori cultu observantiae regularis quoad usum camisiarum, abdicationem proprietatis, silentium et esum carnium, ac de eorum capitulis de triennio in triennium celebrandis, et etiam
+            quoad quaelibet alia statuit, quae omnia innovamus et approbamus, expresse volumus et statuimus firmiter observari. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e466-Dd1e180">
+          <head xml:id="kdhaWs-d1e466-Hd1e182">Caput 2</head>
+          <p xml:id="kdhaWs-d1e466-d1e185"> Moniales, quae nulli subsunt nisi Papae, et canonici saeculares, per ordinarios et alia exempta per suos praelatos debent annis singulis visitari. Et ponit
+            numerum personarum, visitationi interesse debentium. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e466-d1e188">
+            <ref xml:id="kdhaWs-d1e466-Rd1e190">Idem in eodem.</ref>
+             Attendentes, quod, ubi gubernaculum disciplinae contemnitur, restat, ut religio naufragetur, providendum censuimus esse praecipue, ne per contemptum huiusmodi in his, quae se Christo voto
+            celebri desponderunt, quicquam reperiatur incongruum, quod in regularis ponat honestatis gloria maculam, et divinam merito possit offendere maiestatem. Hoc igitur sacro approbante concilio
+            duximus statuendum, ut singula monialium monasteria per ordinarios, exempta videlicet, quae ita sedi apostolicae quod nulli alii subiecta noscuntur, apostolica, non exempta vero ordinaria
+            auctoritate, ac exempta alia per alios , quibus subsunt, annis singulis debeant visitari. Visitatores autem huiusmodi sollicitudinis studium diligenter impendant, ut moniales ipsae,
+            (quarum nonnullas dolentes audivimus in subscriptis excedere,) pannis sericis, variorum foderaturis , sandalitiis, comatis et cornutis crinibus, scacatis et virgatis caputiolis non
+            utantur, non choreas, non festa saecularium prosequantur, non die noctuve per vicos et plateas incedant, aut voluptuosam alias vitam ducant, easque sollertius retrahant ab insolentiis
+            quibuslibet et mundi huius illecebris, ac inducant easdem ad impendendum in monasteriis suis devotum et debitum virtutum domino famulatum. Ad quae omnia observanda moniales easdem, (non
+            obstantibus exemptionibus et privilegiis quibuscunque, quibus tamen quoad alia nolumus praeiudicium generari,) per illos , de quibus supra dictum est, compelli iubemus remediis opportunis.
+            Statuimus insuper, ut quaevis ad regimen abbatiarum assumptae, in monasteriis, in quibus abbatissae sunt solitae benedici, infra annum a suae confirmationis tempore computandum munus
+            benedictionis suscipiant, alioquin a iure suo, (nisi subsit causa rationabilis,) prorsus se noverint cecidisse, per illos, ad quos id pertinet, provisione de abbatissis monasteriis ipsis
+            canonice facienda. Illas quoque mulieres quae vulgo dicuntur canonicae saeculares, et, ut saeculares canonici, vitam ducunt, non renunciantes proprio, nec professionem aliquam facientes,
+            per locorum ordinarios, si exemptae non fuerint, sua, si vero exemptae fuerint, apostolica auctoritate praecipimus visitari, per hoc tamen non intendentes earum statum, regulam seu ordinem
+            approbare. Ipsos autem visitatores notariis duobus, et personis duabus suae ecclesiae, quatuorque viris aliis honestis utique et maturis praecipimus in ea, quam visitando facient,
+            inquisitione fore contentos. Si qui vero visitatores ipsos in praemissis impedire praesumpserint, seu aliquo praemissorum, nisi moniti resipiscant, ipso facto excommunicationis sententiam
+            se noverint incursuros, privilegiis, statutis et consuetudinibus quibuslibet in contrarium minime valituris. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

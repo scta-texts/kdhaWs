@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS VIII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS VIII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e442">
+        <head xml:id="kdhaWs-d1e442-Hd1e102">TITULUS VIII.</head>
+        <head xml:id="kdhaWs-d1e442-Hd1e105" type="question-title"> DE DECIMIS, PRIMITIIS, ET OBLATIONIBUS . </head>
+        <div xml:id="kdhaWs-d1e442-Dd1e108">
+          <head xml:id="kdhaWs-d1e442-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e442-d1e113"> Ponit quatuor casus, in quibus religiosi, gravantes vel fraudantes ecclesias circa decimas eis debitas, si requisiti per illos, quorum interest, non
+            desistunt infra mensem, vel de usurpatis vel retentis infra duos menses non fecerint emendam, suspensi sunt ab officiis, administrationibus et beneficiis, et talia non habentes sunt
+            excommunicati. Secundus, tertius et quartus casus ibi: Seu qui. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e442-d1e116">
+            <ref xml:id="kdhaWs-d1e442-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Religiosi quicunque, qui novalium aut alias decimas ecclesiis debitas, ad eos ex aliqua causa legitima non spectantes, appropriare sibi praesumpserint, aut exquisitis fraudibus sive
+            coloribus usurpare, seu, qui de animalibus familiarium et pastorum suorum, vel aliorum etiam animalia ipsa eorum gregibus immiscentium, seu, qui de animalibus, quae in fraudem ecclesiarum
+            in pluribus locis emunt, empta-que tradunt venditoribus vel aliis ab ipsis tenenda, seu, qui de terris, quas tradunt aliis excolendas, decimam solvi ecclesiis non permiserint aut
+            prohibuerint, nisi post requisitionem, per eos, quorum intererit, super hoc eis factam, a praemissis destiterint infra mensem, aut si de iis, quae contra praemissa usurpare vel retinere
+            praesumpserint, infra duos menses damnificatis ecclesiis emendam non fecerint competentem, sint, et tamdiu maneant ab officiis, administra-tionibus et beneficiis suis suspensi, donec
+            destiterint et satisfecerint, ut superius est expressum. Quodsi religiosi huiusmodi administrationes vel beneficia non habeant : eo casu, quo alii supra dicti suspensionis, ipsi sententiam
+            excommunicationis incurrant, ante satisfactionem condignam nullatenus absolvendi, privilegiis non obstantibus quibuscunque. Ceterum praemissa extendi nolumus ad animalia, quae per
+            religiosorum ipsorum donatos seu oblatos tenentur, dum tamen illi religiosis eisdem cum effectu donaverint aut obtulerint se et sua. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e442-Dd1e123">
+          <head xml:id="kdhaWs-d1e442-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e442-d1e128"> Decima beneficiorum alicui concessa sibi debetur secundum taxationem et de moneta currente, nec possunt collectores propter hoc distrahere vel occupare
+            ornamenta divinis officiis deputata. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e442-d1e131">
+            <ref xml:id="kdhaWs-d1e442-Rd1e133">Idem in eodem.</ref>
+             Si beneficiorum decima cuiusvis simpliciter concedatur ad tempus: secundum taxationem decimae, in illis partibus, in quibus fiet concessio, consuetam , et ad monetam currentem communiter
+            ipsa decima levari poterit et debebit. Nec per collectores, levatores sive exactores ipsius decimae, ecclesiarum calices, libros et alia ornamenta, divinis officiis deputata, ex causa
+            pignoris vel distractionis capi vel recipi volumus, nec distrahi seu quomodolibet occupari. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

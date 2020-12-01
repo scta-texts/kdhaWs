@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS IX.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS IX.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e699">
+        <head xml:id="kdhaWs-d1e699-Hd1e102">TITULUS IX.</head>
+        <head xml:id="kdhaWs-d1e699-Hd1e105" type="question-title"> DE POENITENTIIS ET REMISSIONIBUS. </head>
+        <div xml:id="kdhaWs-d1e699-Dd1e108">
+          <head xml:id="kdhaWs-d1e699-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e699-d1e113"> Damnatis ad mortem hoc petentibus poenitentia concedi debet, nec valet contraria consuetudo. Secundo locorum ordinarios ad hoc exsequendum excitat ibi:
+            ,,locorum.“ H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e699-d1e116">
+            <ref xml:id="kdhaWs-d1e699-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Quum secundum statuta canonica ultimo deputandis supplicio negari, si petant, non debeat poenitentiae sacramentum : abusum damnabilem in quibusdam partibus contra hoc introductum aboleri
+            omnino volentes, iustitiarios omnes et dominos temporales, ut ab huiusmodi desistant abusu, hortamur in Domino et obsecramus per viscera misericordiae Iesu Christi, locorum ordinariis
+            nihilominus iniungentes, ut eos ad hoc, quum primum commode poterunt, diligenter monere, et, si necesse fuerit, ecclesiastica censura compellere non omittant. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e699-Dd1e123">
+          <head xml:id="kdhaWs-d1e699-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e699-d1e128"> Repetit concilium generale de quaestoribus non admittendis sine literis apostolicis vel dioecesanorum, et addit, per dioecesanos literas apostolicas prius
+            examinari. H. d. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e699-d1e131"> §. 1. Ponit octo reprehensibiles casus quaestorum, quos fieri prohibet, et contraria privilegia revocat, Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e699-d1e134"> §. 2. Deliquentes quaestores per episcopos puniri praecipit, non obstantibus privilegiis. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e699-d1e137"> Idem . Abusionibus, quas nonnulli eleemosynarum quaestores in suis proponunt praedicationibus, ut simplices decipiant et aurum subtili vel fallaci potius
+            ingenio extorqueant ab eisdem, quum in animarum cedat periculum et scandalum plurimorum, viam, prout est nobis possibile, praecludere cupientes, iuxta statuta concilii generalis duximus
+            prohibendum districte, ne quaestores aliqui, nisi apostolicas vel dioecesani episcopi literas exhibuerint, quomodolibet admittantur, nec permittantur, quum solum ipsis competat
+            indulgentias sibi concessas insinuare populo, et caritativa postulare subsidia suppliciter ab eodem, ullatenus ipsi populo praedicare, nec aliud exponere, quam quod in literis continebitur
+            supra dictis. Literas quoque apostolicas dioecesani episcopi, ne quid fraudis committi valeat per easdem, antequam admittant, quaestores ipsos examinet diligenter. </p>
+          <p xml:id="kdhaWs-d1e699-d1e141"> §. i. Ad haec quum aliqui ex huiusmodi quaestoribus, sicut ad nostram audientiam est perlatum, non sine multa temeritatis audacia et deceptione multiplici
+            animarum indulgentias populo motu suo proprio de facto concedant, super votis dispensent , a periuriis, homicidiis et peccatis aliis sibi confitentes absolvant, male ablata incerta, data
+            sibi aliqua pecuniae quantitate, remittant, tertiam aut quartam partem de poenitentiis iniunctis relaxent, animas tres vel plures parentum vel amicorum illorum, qui eleemosynas eis
+            conferunt, de purgatorio, (ut asserunt mendaciter,) extrahant, et ad gaudia paradisi perducant, benefactoribus locorum, quorum quaestores exsistunt, remissionem plenariam peccatorum
+            indulgeant, et aliqui ex ipsis eos a poena et a culpa, (ut eorum verbis utamur,) absolvant: nos, abusus huiusmodi, per quos censura vilescit ecclesiastica et clavium ecclesiae auctoritas
+            ducitur in contemptum, omnimode aboleri volentes, ea per quoscunque quaestores fieri vel attentari de cetero districtius inhibemus, omnia et singula privilegia, si qua super praemissis vel
+            eorum aliquo sint aliquibus locis, ordinibus vel personis quaestorum huiusmodi quomodocun-que concessa, ne ipsorum praetextu sit eis materia talia ulterius praesumendi, auctoritate
+            apostolica quantum ad praemissa penitus revocantes. </p>
+          <p xml:id="kdhaWs-d1e699-d1e144"> §. 2. Quaestores autem, qui deinceps in praemissis vel aliquo praemisssorum deliquerint, vel alias etiam quibuscunque suis privilegiis abusi fuerint, sic
+            per locorum episcopos puniri volumus, nullo </p>
+          <p xml:id="kdhaWs-d1e699-d1e147"> prorsus eisdem quaestoribus in hac parte privilegio suffragante, quod a suis temerariis ausibus, qui ubique, (ut communis habet assertio,) nimium
+            excreverunt, poenae formidine propensius compescantur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS X.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS X.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e172">
+        <head xml:id="kdhaWs-d1e172-Hd1e102">TITULUS X.</head>
+        <head xml:id="kdhaWs-d1e172-Hd1e105" type="question-title"> DE PROCURATORIBUS. </head>
+        <div xml:id="kdhaWs-d1e172-Dd1e108">
+          <head xml:id="kdhaWs-d1e172-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e172-d1e113"> Qui sciens sine protestatione recipit instrumentum vel literas suae procurationis, quibus constituens pro ipso cavebat, super inclusis in procuratorio
+            dominum defendere cogitur. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e172-d1e116">
+            <ref xml:id="kdhaWs-d1e172-Rd1e118">Clemens V. in concilio Viennensi</ref>
+             . Instrumento vel literis, quibus te aliquis in causis suis procuratorem constituens pro te debito modo cavit, simpliciter, nulla facta protestatione, a te scienter receptis, non potes
+            postea recusare defensionem illius; immo cogi poteris ipsum defendere in omnibus causis et negotiis, ad quae praedicta instrumenta seu literae se extendunt, quum per haec ad omnia tuum
+            praestitisse videaris assensum. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e172-Dd1e123">
+          <head xml:id="kdhaWs-d1e172-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e172-d1e128"> Procurator, habens mandatum iurandi et omnia faciendi, quae requirunt speciale mandatum, contra electum vel provisum opponere non potest crimina vel
+            defectus. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e172-d1e131">
+            <ref xml:id="kdhaWs-d1e172-Rd1e133">Idem.</ref>
+             Non potest procurator, ad agendum vel defendendum, iurandumque de calumnia et veritate dicenda, et generaliter ad omnia alia, quae speciale mandatum exigunt, consti- </p>
+          <p xml:id="kdhaWs-d1e172-d1e137"> tutus, nisi aliud super hoc in mandatis habeat, opponere in personam electi seu eius, cui est provisio facienda vel facta, crimina vel defectus, quum sub
+            generalitate tali graviora non veniant vel maiora, quam in ipso procuratorio sint expressa. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e172-Dd1e141">
+          <head xml:id="kdhaWs-d1e172-Hd1e143"> Caput 3</head>
+          <p xml:id="kdhaWs-d1e172-d1e146"> Religiosus etiam pro conreligioso, nisi pro consorte eiusdem litis, non potest procurator constitui sine licentia superioris, nec etiam alium constituere
+            nec substituere, licet hoc habeat in mandatis. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e172-d1e149">
+            <ref xml:id="kdhaWs-d1e172-Rd1e151">Idem.</ref>
+             Religiosus procurator, etsi per alium religiosum sui vel alterius monasterii fuerit constitutus, sicut non potest sine sui superioris licentia procurationis officium suscipere, nisi pro
+            suo in eadem lite consorte: ita non potest alium procuratorem constituere seu substituere, etiamsi per constituentem hoc sibi expresse fuerit commissum. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e172-Dd1e157">
+          <head xml:id="kdhaWs-d1e172-Hd1e159">Caput 4</head>
+          <p xml:id="kdhaWs-d1e172-d1e162"> Per obitum rectoris ecclesiae revocatur procurator, ab eo pro ecclesia constitutus, etiam quoad negotia iam coepta. </p>
+          <p xml:id="kdhaWs-d1e172-d1e165">
+            <ref xml:id="kdhaWs-d1e172-Rd1e167">Idem.</ref>
+             Procuratorem, a praelato, rectore vel alio quolibet pro ecclesia sua vel beneficio constitutum, per mortem constituentis revocari censemus etiam quoad negotia iam incepta, et causas, in
+            quibus per ipsum lis fuerit ante mortem huiusmodi contestata. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

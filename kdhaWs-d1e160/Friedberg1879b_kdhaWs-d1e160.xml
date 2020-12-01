@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS IX.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS IX.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e160">
+        <head xml:id="kdhaWs-d1e160-Hd1e102">TITULUS IX.</head>
+        <head xml:id="kdhaWs-d1e160-Hd1e105" type="question-title"> DE OFFICIO IUDICIS ORDINARII. </head>
+        <div xml:id="kdhaWs-d1e160-Dd1e108">
+          <head xml:id="kdhaWs-d1e160-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e160-d1e113"> Episcopi ita debent corrigere clericorum excessus, quod metu poenae ipsi arceantur, et alii pertimescant. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e160-d1e116">
+            <ref xml:id="kdhaWs-d1e160-Rd1e118">Clemens V. in concilio Viennensi</ref>
+             . Ut clericorum audacia, qui, praetextu privilegii clericalis ordinis impunitatem excessuum obtinere sperantes, nonnulla multoties committunt enormia, per quae nimirum diffamatur
+            ecclesia, et scandala gravia in populo generantur, potissime quum talia per episcopos, ad quos horum spectat correctio, deferantur ut plurimum incorrecta, propensius </p>
+          <p xml:id="kdhaWs-d1e160-d1e122"> compescatur : eisdem episcopis districte iniungimus, quatenus sic circa correctionem clericorum huiusmodi vigilanter intendant, et diligenter sui officii
+            debitum exsequantur, quod et iidem clerici metu poenae a suis arceantur insolentiis, et alii, eorum exemplo perterriti, prosilire ad similia merito pertimescant. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e160-Dd1e126">
+          <head xml:id="kdhaWs-d1e160-Hd1e128">Caput 2</head>
+          <p xml:id="kdhaWs-d1e160-d1e131"> Valet collatio beneficii, facta a collatore quolibet citra legatum apostolicum, non facta mentione de beneficio, quod prius habebat is, cui fit. H. d.
+            Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e160-d1e134">
+            <ref xml:id="kdhaWs-d1e160-Rd1e136">Idem</ref>
+             . Etsi ab apostolicae sedis legato de beneficio collatio beneficium aliud obtinenti non valeat, nisi de illo, quod obtinet, facta fuerit mentio specialis: in aliis tamen quibuslibet
+            collationem beneficiorum habentibus hoc nolumus observari. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

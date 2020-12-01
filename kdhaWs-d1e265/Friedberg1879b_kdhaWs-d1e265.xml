@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS VI.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS VI.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e265">
+        <head xml:id="kdhaWs-d1e265-Hd1e102">TITULUS VI.</head>
+        <head xml:id="kdhaWs-d1e265-Hd1e105" type="question-title"> DE SEQUESTRATIONE POSSESSIONUM ET FRUCTUUM. </head>
+        <div xml:id="kdhaWs-d1e265-Dd1e108">
+          <head xml:id="kdhaWs-d1e265-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e265-d1e113"> Si super beneficio contra ipsius possessorem, qui triennio non possedit, in petitorio vel possessorio una diffinitiva fertur in curia, etiamsi nulla fore
+            dicatur, ipsius beneficii sequestratio per loci ordinarium fieri debet, quam impediens, vel sequestratos fructus occupans, excommunicatus est. Et si est de litigantibus, cadit a iure suo,
+            et repicit pendentia. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e265-d1e116">
+            <ref xml:id="kdhaWs-d1e265-Rd1e118">Idem .</ref>
+             Ad compescendas litigantium malitias diffinimus, ut una contra possessorem diffinitiva sententia super beneficio apud sedem apostolicam duntaxat in petitorio vel possessorio promulgata,
+            beneficium ipsum, etiamsi dignitas vel personatus exsistat, et curam habeat animarum, a possessore huiusmodi, (dum tamen triennio pacifice antea ab eo possessum non fuerit,) per loci
+            ordinarium, apud aliquam personam idoneam sequestretur, quae, plenam de ipso et debitam curam gerens, id, quod de fructibus ipsius, (debitis eiusdem supportatis oneribus,) superesse
+            contigerit , illi restituat, qui finalem in causa victoriam obtinebit. Si quis autem sequestrationem huiusmodi impedire, vel fructus sequestratos quoquo modo praesumpserit occupare:
+            excommunicationis incurrat sententiam ipso facto: a qua, (nisi impedimento prius amoto, et occupatis per eum fructibus restitutis,) nullatenus absolvatur. Et nihilominus, si de
+            litigantibus fuerit, a iure, (si quod in huiusmodi beneficio, vel ad ipsum forsitan competebat eidem,) hoc ipso se noverit cecidisse, praemissis nedum circa futura, sed etiam circa per
+            appellationem pendentia negotia observandis, non obstante, si contra praefatam sententiam de nullitate forsan opponatur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

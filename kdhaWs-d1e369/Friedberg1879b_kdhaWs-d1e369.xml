@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS II.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS II.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e369">
+        <head xml:id="kdhaWs-d1e369-Hd1e102">TITULUS II.</head>
+        <head xml:id="kdhaWs-d1e369-Hd1e105" type="question-title"> DE PRAEBENDIS ET DIGNITATIBUS. </head>
+        <div xml:id="kdhaWs-d1e369-Dd1e108">
+          <head xml:id="kdhaWs-d1e369-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e369-d1e113"> Clausula, inserta literis gratiosis super dignitate concessis, per quam provideri mandatur, ne animarum cura, si dignitati imminet, negligatur, vel per quam
+            inhibetur, electionem fieri dignitatis, non facit extendi gratiam ad dignitatem curatam, vel ad quam quis per electionem assumitur. H. d, loann. Andr. </p>
+          <p xml:id="kdhaWs-d1e369-d1e116">
+            <ref xml:id="kdhaWs-d1e369-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Si dignitatem habenti de alia provideri mandemus dispensantes cum eo, ut simul utramque valeat retinere, de animarum cura, quae illis vel alteri earum imminet, non habita mentione: gratia
+            huiusmodi velut subreptitia nullius penitus est momenti, quanquam confectis super ea literis sit insertum, quod animarum cura, si dignitatibus ipsis vel alteri earum immineat, nullatenus
+            negligatur. Ad hoc si alicui provideri mandemus de dignitate, ad cuiuscunque vel quorumcunque collationem, provisionem seu quamvis dispositionem aliam in certa ecclesia pertinente, quam
+            infra mensem duxerit acceptandam, inhibentes illi vel illis, ad quorum collationem, provisionem seu electionem dignitates in ipsa ecclesia pertinere noscuntur, ne interim ad collationem
+            ipsarum seu provisionem procedant, vel quemquam eligant ad easdem de dignitate, ad quam consuevit quis per electionem assumi: impetranti non poterit provideri, quum in concessione gratiae,
+            (ad quam non augendam, sed exsequendam debent quae de inhibitione sequuntur referri,) nullam de electione fecerimus mentionem. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e369-Dd1e123">
+          <head xml:id="kdhaWs-d1e369-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e369-d1e128"> Literae super provisione clericorum non includunt hospitalia et loca similia, et habentia iura spiritualia, nisi id exprimatur. H. d. loann Andr. </p>
+          <p xml:id="kdhaWs-d1e369-d1e131">
+            <ref xml:id="kdhaWs-d1e369-Rd1e133">Idem</ref>
+             . Per literas, a sede apostolica vel legatis ipsius super provisione quorumlibet clericorum directas, de xenodochiis, leprosariis, eleemosynariis seu hospitalibus, etiamsi ecclesias vel
+            capellas, decimas, aut alia spiritalia iura noscantur habere, nulli posse decernimus provideri, nisi hoc in apostolicis literis caveatur expresse. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e369-Dd1e138">
+          <head xml:id="kdhaWs-d1e369-Hd1e140">Caput 3</head>
+          <p xml:id="kdhaWs-d1e369-d1e143"> Quo casu vacat una dignitas per receptionem alterius, vacant etiam plures. </p>
+          <p xml:id="kdhaWs-d1e369-d1e146">
+            <ref xml:id="kdhaWs-d1e369-Rd1e148">Idem.</ref>
+             Si plures obtinens dignitates aliam dignitatem aut beneficium curam animarum habens acceptet, dispensatione super hoc legitime non obtenta: eius possessione adepta pacifice dignitates,
+            quas prius habebat, ipso facto vacare censemus, sicut, si dignitatem unicam obtinenti alia similis conferretur , eius pacifica possessione habita prima de iure vacaret. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e369-Dd1e154">
+          <head xml:id="kdhaWs-d1e369-Hd1e156">Caput 4</head>
+          <p xml:id="kdhaWs-d1e369-d1e159"> Valet provisio, facta proprio motu Papae, tacentis beneficia provisi, quaecunque sint et quotcunque. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e369-d1e162">
+            <ref xml:id="kdhaWs-d1e369-Rd1e164">Idem</ref>
+             . Si Romanus Pontifex de beneficio alicui motu proprio provideat, de beneficiis, quae obtinet, non habita mentione: provisionem seu gratiam huiusmodi fore validam declaramus, qualiacunque
+            fuerint beneficia, dignitates aut personatus, cum cura vel sine cura, et in numero quantocunque, quae is habebat, quum sibi provisio facta fuit. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e369-Dd1e169">
+          <head xml:id="kdhaWs-d1e369-Hd1e171">Caput 5</head>
+          <p xml:id="kdhaWs-d1e369-d1e174"> Exspectantes beneficium ad collationem episcopi, devolutum ad illius capitulum, obtinere non poterit, devolutum tamen ad episcopum vel etiam ad Papam ex
+            cuiuscunque negligentia, poterit obtinere. </p>
+          <p xml:id="kdhaWs-d1e369-d1e177">
+            <ref xml:id="kdhaWs-d1e369-Rd1e179">Idem.</ref>
+             Si de beneficio, ad cuiuscunque episcopi collationem spectante, alicui conferendo scribamus: sibi illud conferri non poterit, cuius collatio ex negligentia ipsius episcopi ad eiusdem
+            capitulum devoluta exsistit , licet provideri sibi possit de illo etiam , cuius ad ipsum episcopum ex sui capituli vel alterius cuiuscunque, sive ad nos ex ipsius episcopi et aliorum, in
+            hoc eidem succedentium, negligentia collatio fuerit devoluta. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e369-Dd1e184">
+          <head xml:id="kdhaWs-d1e369-Hd1e186">Caput 6</head>
+          <p xml:id="kdhaWs-d1e369-d1e189"> Adeptus in ecclesia dignitatem, habentem praebendam annexam, perdidit primam praebendam, quam habebat in illa. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e369-d1e192">
+            <ref xml:id="kdhaWs-d1e369-Rd1e194">Idem.</ref>
+             Si iuxta nostri formam mandati canonicatum et praebendam ecclesiae Rutinensis adeptus, dignitatem, quam duxerit acceptandam, ibidem exspectet: archidiaconatum inibi post vacantem, non
+            obstante, quod certa sit sibi annexa praebenda, poterit acceptare, primaque praebenda hoc ipso vacabit, quod secundam cum archidiaconatu praedicto pacifice fuerit assecutus. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS IX.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS IX.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e454">
+        <head xml:id="kdhaWs-d1e454-Hd1e102">TITULUS IX.</head>
+        <head xml:id="kdhaWs-d1e454-Hd1e105" type="question-title"> DE REGULARIBUS ET TRANSEUNTIBUS AD RELIGIONEM. </head>
+        <div xml:id="kdhaWs-d1e454-Dd1e108">
+          <head xml:id="kdhaWs-d1e454-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e454-d1e113"> Professi ordinum mendicantium, etiam licite transeuntes ad non mendicantes, licet administrationes habeant, non habent vocem in capitulo, etiamsi alii de
+            capitulo id concedant, nec deinceps consequi possunt administrationes, prioratus vel officia, etiam tanquam vicarii, nec pro se vel aliis animarum curam gerere; et irritat contra factum.
+            Ultimo ponit casum exceptum. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e454-d1e116">
+            <ref xml:id="kdhaWs-d1e454-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Ut professores cuiusvis paupertatis ordinis eo libentius in qua vocati sunt vocatione persistere, transeuntesque ad non mendicantium ordinem in eodem conversari quietius studeant, quo in
+            ipsis discordiarum et schismatum productiva ambitio reprimetur : sacro concilio approbante statuimus, mendicantes quoslibet, qui ad non mendicantium ordines etiam auctoritate apostolica
+            transibunt in posterum, quive hactenus transiverunt, quamvis nunc prioratus, administrationes vel officia, aut curam animarum vel regimen quodcunque obtineant inibi, vocem aut locum in
+            capitulo non habere, etiamsi hoc sibi ab aliis libere concedatur, ad prioratus quoque, administrationes aut quaecunque in antea non assumi officia, etiam tanquam vicarios seu ministros vel
+            locum aliorum tenentes, quodque animarum curam et regimen nec pro se possint, nec pro aliis exercere. Quic-quid autem in contrarium attentatum fuerit, sit irritum ipso iure, quovis
+            privilegio non obstante. Ad illorum autem mendicantium ordines, quos apostolica sedes eo modo subsistere voluit, ut eorum professoribus ita in illa remanere liceret, quod nullum extunc
+            admitterent ad professionem eorum, quibusque concessit licentiam generalem ad approbatos alios ordines transeundi, praesentem nolumus constitutionem extendi. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e454-Dd1e123">
+          <head xml:id="kdhaWs-d1e454-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e454-d1e128"> Pubes, per annum deferens habitum novitiorum, non patenter distinctum ab habitu professorum, intelligitur professus. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e454-d1e131">
+            <ref xml:id="kdhaWs-d1e454-Rd1e133">Idem.</ref>
+             Eos, qui deinceps in discretionis constituti aetate novitiorum habitum in aliqua religione per annum portaverint, hoc ipso religionem illam decernimus esse professos, nisi huiusmodi
+            habitus in colore, scissura vel forma se distinctum patenter exhibeat ab habitu professorum. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

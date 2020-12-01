@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS II.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS II.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e216">
+        <head xml:id="kdhaWs-d1e216-Hd1e102">TITULUS II.</head>
+        <head xml:id="kdhaWs-d1e216-Hd1e105" type="question-title"> DE FORO COMPETENTI. </head>
+        <p xml:id="kdhaWs-d1e216-d1e108"> CAP. UN. </p>
+        <p xml:id="kdhaWs-d1e216-d1e111"> Concedit concilium certo casu episcopis expulsis a suis sedibus, quod in locis aliarum dioecesum servata forma, quam limitat, possint procedere contra
+          expulsores, consiliarios et fautores, et inter subditos ius dicere, Ioann. Andr. </p>
+        <p xml:id="kdhaWs-d1e216-d1e114"> Clemens V. in concilio Viennensi . </p>
+        <p xml:id="kdhaWs-d1e216-d1e118"> Quamvis sacris canonibus sit generaliter interdictum, ne quis episcopus iurisdictionem in dioecesi exerceat aliena: nos tamen episcopis, qui, a suis sedibus
+          protervia impiorum expulsi, non audent propter metum persequentium in suis civitatibus vel dioecesibus aut earum parte aliqua residere, nec iurisdictionem ad se spectantem per se vel per
+          alium inibi exercere, ne iniuria, in eorum expulsione ipsorum irrogata ecclesiis, hoc praetextu remaneat impunita, duximus in-dulgendum, ut in dioecesibus alienis, in civitatibus videlicet
+          vel locis insignibus suis ecclesiis vicinioribus, in quibus poterunt secure morari et iurisdictionem suam libere exercere, possint contra suos expulsores et eorum in hac parte consiliarios
+          et fautores, (dummodo civitates vel loca huiusmodi eisdem expulsoribus, consiliariis et fautoribus sint secura, et ipsi personaliter vel ad domum, si hoc tute fieri valeat, alioquin publice
+          in ecclesia cathedrali loci vel domicilii eorundem citati fuerint,) libere procedere, prout iustitia suadebit. Si vero dicti episcopi ausi non fuerint huiusmodi suos expulsores, vel eorum
+          consiliarios aut fautores dicto modo citare, vel ipsi malitiose impedimentum praestiterint, ne potuerint sic citari: licitum sit eisdem episcopis, ut expulsores, consiliarios et fautores
+          eosdem diebus aliquibus dominicis vel festivis, quum populus convenerit ad divina, ut sic facta citatio ad eos pervenire verisimilius praesumatur, citent vel citari faciant publice in
+          ecclesiis civitatum vel locorum insignium praedictorum, et procedant deinde contra ipsos , si citati taliter statuto ipsis peremtorio termino competenti coram eisdem episcopis noluerint
+          comparere, ac si citati legitime alias exstitissent. Eisdem etiam episcopis in-dulgemus, ut inter suos subditos, (ne ob defectum iustitiae dispendium aliquod patiantur,) possint in
+          dioecesibus alienis, in quibus moram traxerint, (dummodo per se vel per alium hoc in suis propriis dioecesibus facere non audeant vel non possint) iurisdictionem suam omnimodam exercere, ita
+          tamen, quod subditi, qui expulsores vel eorum fautores aut consiliarii non fuerint, ultra duas diaetas a fine suae dioecesis non trahantur. Volumus insuper,ut ante omnia a dioecesanis
+          locorum, in quibus moram traxerint, petant licentiam in praemissis, quam si obtinere nequiverint, procedant nihilominus, prout superius est expressum. Sane, si praedicti episcopi
+          asseruerint, se non fuisse ausos praefatos expulsores, consiliarios vel fautores personaliter vel ad domum, aut publice, ut praemittitur, in eorum ecclesia cathedrali citare, vel ipsos
+          malitiose praestitisse impedimentum, ne per eos potuerint sic citari, aut quod in suis dioecesibus iurisdictionem per se vel per alium contra ipsos exercere nequeunt vel non audent: stari
+          super his volumus assertionibus eorundem, ipsis districtius iniungentes sub interminatione divini iudicii, ne circa praemissa contra conscientiam quicquam mendaciter aut dolose asserant vel
+          confingant. Eorundem autem episcoporum sententias et processus, quos in praemissis casibus in aliis dioecesibus duxerint faciendos, denuncient seu denunciari faciant per suas dioeceses
+          convicini episcopi, quum ab eis fuerint requisiti. Per praemissa quoque nullum ex transcursu temporis quanticunque, vel alias quoquo modo locorum dioecesanis, vel aliis quibuscunque,
+          iurisdictionem habentibus in locis praemissis, in quibus praedicti episcopi sic expulsi iurisdictionem, (ut praedicitur,) exercebunt, praeiudicium generetur. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

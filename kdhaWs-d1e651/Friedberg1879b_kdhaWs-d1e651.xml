@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS V.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS V.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e651">
+        <head xml:id="kdhaWs-d1e651-Hd1e102">TITULUS V.</head>
+        <head xml:id="kdhaWs-d1e651-Hd1e105" type="question-title"> DE USURIS. </head>
+        <div xml:id="kdhaWs-d1e651-Dd1e108">
+          <head xml:id="kdhaWs-d1e651-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e651-d1e113"> Officiales communitatum, facientes, dictantes vel scribentes statuta super usuris solvendis, non repetendis, vel non restituendis, vel iudicantes secundum
+            illa, vel non delentes illa, si possunt, infra tres menses de libris communitatum, vel illa servantes, excommunicati sunt. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e651-d1e116"> §. 1. Foeneratores in causis usurarum edere coguntur libros rationum suarum, Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e651-d1e119"> §. 2. Pertinaciter asserens, exercere usuras non esse peccatum, haereticus est. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e651-d1e122">
+            <ref xml:id="kdhaWs-d1e651-Rd1e124">Clemens V. in concilio Viennensi.</ref>
+             Ex gravi ad nos insinuatione pervenit, quod quorundam communitates locorum in offensam Dei et proximi, ac contra iura divina pariter et humana usurariam approbantes quodammodo pravitatem,
+            per statuta sua iuramento quandoque firmata usuras exigi et solvi nedum concedunt, sed ad sol vendas eas debitores scienter compellunt, ac iuxta ipsorum continentiam statutorum gravia
+            imponendo, plerumque usuras repetentibus onera, aliisque utendo super his diversis coloribus et fraudibus exquisitis, repetitionem impediunt earundem. Nos igitur, perniciosis his ausibus
+            obviare volentes, sacro approbante concilio statuimus, ut, quicunque communitatum ipsarum potestates, capitanei, rectores, consules, iudices, consiliarii aut alii quivis officiales statuta
+            huiusmodi de cetero facere, scribere vel dictare, aut quod solvantur usurae, vel quod solutae, quum repetuntur , non restituantur plene ac libere, scienter iudicare praesumpserint,
+            sententiam excommunicationis incurrant, eandem etiam sententiam incursuri, nisi statuta huiusmodi hactenus edita de libris communitatum ipsarum, (si super hoc potestatem habuerint,) infra
+            tres menses deleverint , aut si ipsa statuta sive consuetudines, effectum eorum habentes, quoquo modo praesumpserint observare. </p>
+          <p xml:id="kdhaWs-d1e651-d1e129"> §. i. Ceterum, quia foeneratores sic ut plurimum contractus usurarios occulte ineunt et dolose, quod vix convinci possunt de usuraria pravitate: ad
+            exhibendum, quum de usuris agetur, suarum codices rationum censura ipsos decernimus ecclesiastica compellendos. </p>
+          <p xml:id="kdhaWs-d1e651-d1e132"> §. 2. Sane, si quis in illum errorem inciderit, ut pertinaciter affirmare praesumat, exercere usuras non esse peccatum: decernimus, eum velut haereticum
+            puniendum, locorum nihilominus ordinariis et haereticae pravitatis inquisitoribus districtius iniungentes, ut contra eos, quos de errore huiusmodi diffamatos invenerint aut suspectos,
+            tanquam contra diffamatos vel suspectos de haeresi procedere non omittant. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

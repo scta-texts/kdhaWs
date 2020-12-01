@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS XVII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS XVII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e552">
+        <head xml:id="kdhaWs-d1e552-Hd1e102">TITULUS XVII.</head>
+        <head xml:id="kdhaWs-d1e552-Hd1e105" type="question-title"> DE IMMUNITATE ECCLESIARUM. </head>
+        <div xml:id="kdhaWs-d1e552-Dd1e108">
+          <head xml:id="kdhaWs-d1e552-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e552-d1e113"> Revocat et pro infectis vult haberi decretalem Clericis eod. tit. 1. VI. cum suis declarationibus. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e552-d1e116">
+            <ref xml:id="kdhaWs-d1e552-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Quoniam ex constitutione Bonifacii Papae VIII. praedecessoris nostri, quae incipit „ Clericis laicos, et ex declaratione seu declarationibus ex illa postmodum subsecutis nonnulla
+            scandala, magna pericula et incommoda gravia sunt secuta, et ampliora sequi, nisi celeri remedio succurratur, praesumitur verisimiliter in futurum: nos de consilio fratrum nostrorum
+            constitutionem, et declarationem seu declarationes praedictas , et quicquid ex eis secutum est vel ob eas, penitus revocamus, et eas haberi volumus pro infectis, volentes et firmiter
+            statuentes, illud contra quoscunque laicos, exigentes seu extorquentes ab ecclesiis ecclesiasticisque personis tallias seu collectas aut exactiones quascunque, et contra dantes ad id
+            faciendum consilium, auxilium vel favorem, nec non et circa praestandas subventiones laicis ab ecclesiarum praelatis et aliis viris ecclesiasticis, inviolabiliter observari, quod super his
+            a praedecessoribus nostris in Lateranensi et generali conciliis, quae nos sub obtestatione divini iudicii praecipimus observari districte, salubriter est provisum. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS XIII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS XIII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e503">
+        <head xml:id="kdhaWs-d1e503-Hd1e102">TITULUS XIII.</head>
+        <head xml:id="kdhaWs-d1e503-Hd1e105" type="question-title"> DE CENSIBUS, EXACTIONIBUS ET PROCURATIONIBUS. </head>
+        <div xml:id="kdhaWs-d1e503-Dd1e108">
+          <head xml:id="kdhaWs-d1e503-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e503-d1e113"> Religiosi subire tenentur onera, quae incumbebant ecclesiis, per eos ante hoc concilium acquisitis, nisi privilegio, exemptione vel alia iusta causa
+            iuventur; quae privilegia vel exemptiones non iuvant in ecclesiis post concilium acquirendis. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e503-d1e116">
+            <ref xml:id="kdhaWs-d1e503-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Quum sit naturae consonum, illos non recusare onera, qui rerum commoda complectuntur: hac in perpetuum valitura constitutione sancimus, ut religiosi quicunque pro monasteriis et
+            ecclesiis, quae ad eos quocunque sunt titulo devoluta, procurationes legatorum sedis apostolicae, ac iura episcopalia et alia praestari pro ipsis, antequam ad eos pervenissent, solita,
+            prompte solvere studeant, nisi forsan sedis apostolicae privilegio, exemptione vel alia causa legitima ab his se valeant excusare. Privilegia vero seu exemptiones huiusmodi ad monasteria
+            seu ecclesias, quae ad eos obvenire continget in posterum, volumus non extendi. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e503-Dd1e123">
+          <head xml:id="kdhaWs-d1e503-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e503-d1e128"> Ponit quaedam gravamina, quae praelati inferebant exemptis, praecipue Cisterciensibus, et illa fieri prohibet, statuens, quod episcopi, qui in monasteriis
+            Cisterciensis ordinis caritative procurantur, sint contenti cibariis, quae per illos sibi ministrantur. Si vero procurantur ex debito, ipsis volentibus carnes ministrari debent extra septa
+            monasterii, vel saltem extra portam, quae dicitur regularis. Ipsorum etiam eleemosynarii fragmenta mensarum possunt pauperibus erogare. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e503-d1e131"> Idem. Ad nostrum, quod dolentes referimus, pervenit auditum, quod ecclesiarum praelati, ad monasteria Cisterciensis ordinis accedentes, licet ab eis
+            caritative recipiantur, et eis curialiter necessaria ministrentur, cibis tamen regularibus non contenti contra privilegia dicti ordinis carnes petunt, et, si eis non ministrentur, auferunt
+            violenter, et licet in locis eisdem fiant eleemosynae competenter, ipsi tamen praelati ipsis religiosis invitis alias eleemosynas faciunt, etiam in aliquibus locis, in quibus procurationes
+            non habent de consuetudine vel de iure. Pro equitaturis quoque ferrandis, licet ferris non egeant, et coci eorum sui officii ratione pecuniam exigunt et extorquent, nec compositiones,
+            super procurationibus inter praelatos ipsos et eos initas, eis servant. Ipsis etiam in recipiendis procurationibus ita graves exsistunt, quod, ipsis in eorum monasteriis et ecclesiis
+            procuratores recipientibus, longi temporis victum brevis hora consumit, et, dum procurationes recipiunt, canes venaticos, falcones et accipitres secum habent, et nisi voluntati satisfiat
+            eorum, valvae monasteriorum seu ecclesiarum per violentiam saepe franguntur, et ornamenta ecclesiae exportantur, pluresque procurationes recipiunt una die sedis apostolicae privilegio non
+            suffulti, interdum in pecunia numerata, visitationis etiam officio non impenso, et occasione dictarum procurationum iidem praelati ab ipsis frequenter exigunt quae illis solvere non
+            tenentur, intolerabilia eisdem gravamina cumulantes. Sunt et nonnulli, qui procurationes nunciorum apostolicae sedis aliaque extraordinaria onera exemptis et aliis religiosis pro maiori
+            parte imponunt, ut se ac presbyteros liberent saeculares, religiosos ad ordinandum huiusmodi onerum distributionem minime assumentes. In multis etiam aliis praefati praelati exempta
+            monasteria et ipsorum ecclesias utroque illis iure subiectas gravant in procurationibus recipiendis et oneribus insolitis imponendis. Nos igitur, super his volentes de opportuno remedio
+            providere, sacri approbatione concilii duximus statuendum, ut, si episcopi non causa visitationis, sed caritativae hospitalitatis ad monasteria venerint supra dicta, victualia gratiose
+            recipiant, quae caritatis gratia eis fuerint ministrata. Ipsis autem episcopis ad monasteria venientibus supra dicta, et procurationes ibidem recipientibus, sibi debitas de iure communi,
+            consuetudine, privilegio vel iure alio speciali, in domibus ipsorum monasteriorum, extra tamen septa ipsorum exsistentibus, si quae fuerint ad hoc aptae, alioquin intra septa ipsa, non
+            tamen intra portam, quam regularem appellant, carnium pro congruentia temporis, si voluerit, (privilegio non obstante quocunque,) cibaria ministrentur. Nec inconveniens reputamus, si
+            fragmenta, quae de mensis ipsorum episcoporum et suorum familiarium colliguntur, per ipsorum episcoporum eleemo-synarios ibidem pauperibus erogentur. Ab aliis autem gravaminibus expressis
+            superius praelati diligenter abstineant, si Dei et apostolicae sedis indignationem voluerint evitare. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e503-Dd1e135">
+          <head xml:id="kdhaWs-d1e503-Hd1e137">Caput 3</head>
+          <p xml:id="kdhaWs-d1e503-d1e140"> Dioecesani, quibus hoc constat, illos, qui exigendo a clericis pedagia vel guidagia excommunicati sunt vel interdicti, publicare debent. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e503-d1e143">
+            <ref xml:id="kdhaWs-d1e503-Rd1e145">Idem in eodem.</ref>
+             Praesenti constitutione iubemus, ut locorum dioecesani contra eos, qui ab ecclesiis vel personis ecclesiasticis pro earum rebus propriis, quas non negotiandi causa deferunt, aut deferri
+            faciunt vel transmittunt, pedagia vel guidagia suo vel alieno nomine exigunt vel extorquent in animarum suarum periculum, et eorum, a quibus ea exigunt, preiudicium et gravamen,
+            excommunicationis et interdicti sententias a iure prolatas, postquam de his ipsis constiterit, omnino publicent, vel a suis subditis tamdiu faciant publicari, donec illi sic exacta
+            restituerint, et de transgressione huiusmodi satisfecerint competenter. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

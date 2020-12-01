@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS XI.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS XI.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e479">
+        <head xml:id="kdhaWs-d1e479-Hd1e102">TITULUS XI.</head>
+        <head xml:id="kdhaWs-d1e479-Hd1e105" type="question-title"> DE RELIGIOSIS DOMIBUS, UT EPISCOPO SINT SUBIECTAE. </head>
+        <div xml:id="kdhaWs-d1e479-Dd1e108">
+          <head xml:id="kdhaWs-d1e479-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e479-d1e113"> Mulieres, statum Beguinarum sectantes, et de novo assumentes, ac religiosi, in hoc dantes consilium vel favorem, ipso facto sunt excommunicati; status tamen
+            poenitentialis per hoc non interdicitur, secundum Paulum. </p>
+          <p xml:id="kdhaWs-d1e479-d1e116">
+            <ref xml:id="kdhaWs-d1e479-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Quum de quibusdam mulieribus, Beguinabus vulgariter nuncupatis, (quae, quum nulli promittant obedientiam, nec propriis renuncient, neque profiteantur aliquam regulam approbatam,
+            religiosae nequaquam exsistunt, quanquam habitum, qui Beguinarum dicitur, deferant, et adhaereant religiosis aliquibus, ad quos specialiter trahitur affectio earundem,) nobis fide digna
+            relatione insinuatum exstiterit, quod earum aliquae, quasi perductae in mentis insaniam, de summa Trinitate ac divina essentia disputent et praedicent, ac circa fidei articulos et
+            ecclesiastica sacramenta opiniones catholicae fidei contrarias introducant, et, multos super his decipientes simplices, eos in errores diversos inducant, aliaque quam plura periculum
+            animarum parientia sub quodam velamine sanctitatis faciant et committant: nos, tam ex his quam ex aliis, de ipsarum opinione sinistra frequenter auditis, eas merito suspectas habentes,
+            statum earundem sacro approbante concilio perpetuo duximus prohibendum et a Dei ecclesia penitus abolendum, eisdem et aliis mulieribus quibuscunque sub poena excommunicationis, quam in
+            contrarium facientes incurrere volumus ipso facto, Iniungentes expresse, ne statum huiusmodi, dudum forte ab ipsis assumptum, quoquo modo sectentur ulterius, vel ipsum aliquatenus de novo
+            assumant. Praedictis vero religiosis, per quos eaedem mulieres in huiusmodi Beguinagii statu foveri, et ad ipsum suscipiendum induci dicuntur, sub simili excommunicationis poena, quam eo
+            ipso, quod secus egerint, se noverint incursuros, districtius inhibemus, ne mulieres aliquas, praedictum statum (ut praemittitur) dudum assumptum sectantes, aut ipsum de novo forsitan
+            assumentes quomodocunque admittant, ipsis super eo sectando vel assumendo praebentes ullo modo consilium, auxilium vel favorem, nullo contra praemissa privilegio valituro. Sane per
+            praedicta prohibere nequaquam intendimus, quin, si fuerint fideles aliquae mulieres, quae promissa continentia vel etiam non promissa, honeste in suis conversantes hospitiis, poenitentiam
+            agere voluerint et virtutum Domino in humilitatis spiritu deservire, hoc eisdem liceat, prout Dominus ipsis inspirabit. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e479-Dd1e123">
+          <head xml:id="kdhaWs-d1e479-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e479-d1e128"> Ponens constitutionis causam statuit hospitalia reformari per collatores ipsorum, et cogi rectores eorum ad conservationem locorum et suorum iurium, et ad
+            hospitalitatem tenendam, statuens per locorum ordinarios suppleri defectum vel negligentiam collatorum, etiam circa exempta. Ioann. Andr.— </p>
+          <p xml:id="kdhaWs-d1e479-d1e131"> §.l. Praecipit, hospitalia in beneficium non concedi, nisi in duobus casibus, et reprobat contrariam consuetudinem, submittens, quales esse debeant, quibus
+            administratio ipsa committitur, et de ipsorum iuramento, inventario et ratione reddenda, et decretum apponit. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e479-d1e134"> §. 2. Declarat, constitutionem non extendi ad hospitalia religiosorum et militarium ordinum. H. d. — </p>
+          <p xml:id="kdhaWs-d1e479-d1e137"> §. 3. Conservat antiquas consuetudines talium locorum circa divina officia et sacramenta. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e479-d1e141">
+            <ref xml:id="kdhaWs-d1e479-Rd1e143">Idem.</ref>
+             Quia contingit interdum, quod xenodochiorum, lepro-sariarum, eleemosynariarum seu hospitalium rectores, locorum ipsorum cura postposita, bona, res et iura ipsorum interdum ab occupatorum
+            et usurpatorum manibus excutere negligunt, quin immo ea collabi et deperdi, domos et aedificia ruinis deformari permittunt, et, non attento, quod loca ipsa ad hoc fundata et fidelium
+            erogationibus dotata fuerunt , ut pauperes infectique lepra reciperentur inibi et ex proventibus sustentarentur illorum, id renuunt inhumaniter facere, proventus eosdem in usus suos
+            damnabiliter convertentes, quum tamen ea, quae ad certum usum largitione sunt destinata fidelium, ad illum debeant, non ad alium, (salva quidem sedis apostolicae auctoritate,) converti:
+            nos, incuriam et abusum huiusmodi detestantes, hoc sacro concilio approbante sancimus, ut hi, ad quos id de iure vel statuto in ipsorum fundatione locorum apposito, aut ex consuetudine
+            praescripta legitime, vel privilegio sedis apostolicae pertinet, loca ipsa studeant in praedictis omnibus salubriter reformare, ac occupata, deperdita et alienata indebite in statum reduci
+            debitum faciant, et ad ipsarum miserabilium personarum receptionem et sustentationem debitam iuxta facultates et proventus locorum ipsorum rectores praedictos compellere non omittant. In
+            quo si forte commiserint negligentiam vel defectum, ordinariis locorum iniungimus, ut, etiamsi pia loca praedicta exemptionis privilegio munita consistant, per se ipsos vel alios impleant
+            omnia praemissa et singula, et rectores eosdem utique non exemptos propria, exemptos vero et alios privilegiatos apostolica ad id auctoritate compellant, contradictores, cuiuscunque status
+            aut conditionis exsistant, ac praebentes eisdem circa praemissa consilium, auxilium vel favorem, per censuram ecclesiasticam et aliis iuris remediis compescendo, nullum tamen per hoc
+            exemptionibus seu privilegiis ipsis quoad alia praeiudicium generando. </p>
+          <p xml:id="kdhaWs-d1e479-d1e147"> §. i. Ut autem praemissa promptius observentur, nullus ex locis ipsis saecularibus clericis in beneficium conferatur, etiamsi de consuetudine, (quam
+            reprobamus penitus,) hoc fuerit observatum, nisi in illorum fundatione secus constitutum fuerit, seu per electionem sit de rectore locis huiusmodi providendum. Sed eorum gubernatio viris
+            providis, idoneis et boni testimonii committatur, qui sciant, velint et valeant loca ipsa, bona eorum ac iura utiliter regere, et eorum proventus et reditus in personarum usum miserabilium
+            fideliter dispensare, et quos in usus alios bona praedicta convertere praesumptio verisimilis non exsistat, in quibus sub obtestatione divini iudicii illorum, ad quos dictorum locorum
+            commissio pertinet, conscientias oneramus. Illi etiam, quibus dictorum locorum gubernatio seu administratio committetur, ad instar tutorum et curatorum iuramentum praestare, ac de locorum
+            ipsorum bonis inventaria conficere, et ordinariis seu aliis, quibus subsunt loca huiusmodi, vel deputandis ab eis, annis singulis de administra-tione sua teneantur reddere rationem. Quodsi
+            secus a quoquam fuerit attentatum, collationem, provisionem seu ordinationem ipsam carere decernimus omni robore firmitatis. </p>
+          <p xml:id="kdhaWs-d1e479-d1e150"> §. 2. Praemissa vero ad hospitalia militarium ordinum aut religiosorum etiam aliorum extendi minime volumus, quorum tamen hospitalium rectoribus in sanctae
+            obedientiae virtute mandamus, ut in illis secundum suorum ordinum instituta et antiquas observantias providere pauperibus, et hospitalitatem debitam in illis tenere procurent, ad quod per
+            superiores eorum arcta districtione cogantur, statutis aut consuetudinibus quibuslibet non obstantibus in praemissis. </p>
+          <p xml:id="kdhaWs-d1e479-d1e153"> §. 3. Ceterum nostrae intentionis exsistit, quod, si qua sint </p>
+          <p xml:id="kdhaWs-d1e479-d1e156"> hospitalia, altare vel altaria et coemeterium ab antiquo habentia, et presbyteros celebrantes et sacramenta ecclesiastica pauperibus ministrantes, seu si
+            parochiales rectores consueverint in illis exercere praemissa, antiqua consuetudo servetur quoad exercenda et ministranda spiritualia supra dicta. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

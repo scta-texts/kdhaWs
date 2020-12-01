@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS III.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS III.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e626">
+        <head xml:id="kdhaWs-d1e626-Hd1e102">TITULUS III.</head>
+        <head xml:id="kdhaWs-d1e626-Hd1e105" type="question-title"> DE HAERETICIS. </head>
+        <div xml:id="kdhaWs-d1e626-Dd1e108">
+          <head xml:id="kdhaWs-d1e626-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e626-d1e113"> Praemittit constitutionis causam. Ioann. Andr. —- </p>
+          <p xml:id="kdhaWs-d1e626-d1e116"> §. 1. Ponit constitutionem de officio inquisitionis, exercendo per dioecesanos^et inquisitores, primo ponens quinque, quae potest alter sine altero,
+            secundo, tria, quae non potest, et decretum apponit, submittens, quomodo impeditus vel interesse nolens committit alii vel consentit. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e626-d1e119"> §. 2. Providet circa muros vel carceres haereticorum, ipsorum claves, custodes, et custodum ministros. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e626-d1e122"> §. 3. Ponit iuramentum custodum, ministrorum suorum, et notariorum et aliorum officialium. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e626-d1e126"> §. 4. Punit episcopos, inquisitores et eorum substitutos, qui faciendo vel omittendo delinquunt in officio. H. d. — </p>
+          <p xml:id="kdhaWs-d1e626-d1e129"> §. 5. Confirmat antiqua iura, huic constitutioni non obvia. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e626-d1e132"> Clemens V. in concilio Viennensi . </p>
+          <p xml:id="kdhaWs-d1e626-d1e135"> Multorum querela sedis apostolicae pulsavit auditum, quod nonnulli inquisitores, per sedem eandem contra pravitatem haereticam deputati, metas sibi traditas
+            excedentes sic interdum extendunt suae potestatis officium, ut, quod in augmentum fidei per circumspectam eiusdem sedis vigilantiam salubriter est provisum, dum sub pietatis specie
+            gravantur innoxii, cedat in fidelium detrimentum. </p>
+          <p xml:id="kdhaWs-d1e626-d1e138"> §. i. Propter quod ad Dei gloriam et augmentum eiusdem fidei, ut negotium inquisitionis huiusmodi eo prosperetur felicius, quo deinceps eiusdem labis indago
+            solennius, diligentius et cautius peragetur, ipsum tam per dioecesanos episcopos, quam per inquisitores a sede apostolica deputatos, (omni carnali amore, odio vel timore, ac cuiuslibet
+            commodi temporalis affectione semotis decernimus exerceri, sic, quod quilibet de praedictis sine alio citare possit, et arrestare sive capere, ac tutae custodiae mancipare, ponendo etiam
+            in compedibus vel manicis ferreis, si ei visum fuerit faciendum, super quo ipsius conscientiam oneramus, nec non inquirere contra illos, de quibus pro huiusmodi negotio secundum Deum et
+            iustitiam viderit expedire. Duro tamen tradere carceri sive arcto, qui magis ad poenam quam ad custodiam videatur, vel tormentis exponere illos, aut ad sententiam procedere contra eos,
+            episcopus sine inquisitore, aut inquisitor sine episcopo dioecesano aut eius officiali , vel episcopali sede vacante capituli super hoc delegato, si sui ad-invicem copiam habere valeant,
+            intra octo dierum spatium, postquam se invicem requisierint, non valebit, et, si secus praesumptum fuerit, nullum sit et irritum ipso iure. Verum si episcopus vel eius capituli sede
+            vacante delegatus cum inquisitore, aut inquisitor cum altero eorundem propter praemissa nequeat aut nolit personaliter convenire: possit episcopus, vel eius seu capituli sede vacante
+            delegatus inquisitori, et inquisitor episcopo vel eius delegato, seu sede vacante illi, qui ad hoc per capitulum fuerit deputatus, super illis committere vices suas, vel suum significare
+            per literas consilium et consensum. </p>
+          <p xml:id="kdhaWs-d1e626-d1e141"> §. 2. Sane, quia circa custodiam carcerum haereticalium, qui muri in quibusdam partibus vulgariter nuncupantur, multas fraudes dudum intelleximus
+            perpetratas: nos, volentes super hoc providere, statuimus, ut quilibet talis carcer vel murus, quem de cetero episcopo et inquisitori praedictis volumus fore communem, duos custodes habeat
+            principales, discretos , industrios et fideles, unum, quem volet episcopus et providebit eidem, alium , de quo voluerit inquisitor, cui etiam providebit, et quilibet praedictorum custodum
+            sub se alium bonum et fidum poterit habere ministrum. In quolibet etiam conclavi eiusdem carceris sive muri erunt duae claves diversae, quarum unam unus, aliam alius tenebit praedictorum
+            custodum, et eam cum officio ministrandi, quae incarceratis fuerint ministranda, suo poterit committere vel subdelegare ministro. </p>
+          <p xml:id="kdhaWs-d1e626-d1e145"> §. 3. Porro coram episcopo vel capitulo sede vacante et inquisitore praedictis vel substitutis ab eis custo- </p>
+          <p xml:id="kdhaWs-d1e626-d1e148"> des supra dicti, antequam suum officium exsequantur, iura-bunt ad sancta Dei evangelia corporaliter a se tacta, quod in custodia immuratorum et aliorum, pro
+            crimine supra dicto in sua custodia positorum et ponendorum, omnem diligentiam et sollicitudinem, quam poterunt, fideliter adhibebunt. Et quod alicui incarcerato nihil unus in secreto
+            loquetur , quin hoc audiat alter custos. Et quod provisionem, quam incarcerati recipiunt ex ordinatione communi, et illud, quod a parentibus et amicis vel aliis personis fidelibus
+            offeretur eisdem, (nisi episcopi et inquisitoris vel suorum commis-sariorum ordinatio refragetur,) ipsis fideliter et absque deminutione aliqua ministrabunt, nec in his fraudem aliquam
+            adhibebunt. Et idem iuramentum et coram eisdem personis ministri custodum, priusquam suum exerceant officium, exhibebunt . Et quia saepe contingit episcopos proprios habere carceres, sibi
+            et dictis inquisitoribus non communes: volumus et districte praecipimus, ut custodes ad incarcera-torum pro dicto crimine custodiam per episcopos vel sede vacante per capitulum deputandi,
+            et eorum ministri coram dictis inquisitoribus vel substitutis ab eis praestent simile iuramentum. Notarii quoque inquisitionis coram episcopo et inquisitore vel substitutis ab eis
+            iurabunt, suum officium fideliter exercere. Et idem fiet de aliis personis, necessariis ad praedictum officium exsequendum. </p>
+          <p xml:id="kdhaWs-d1e626-d1e151"> §. 4. Verum quia nimis est grave, ad exterminationem pravitatis praedictae non agere, quod ipsius contagiosa enormitas agendum requirit, grave est quoque et
+            damnatione dignissimum malitiose insontibus eandem imponere pravitatem: episcopo et inquisitori praedictis ac aliis, ad dicti exsecutionem officii substituendis ab eis, in virtute sanctae
+            obedientiae et sub interminatione maledictionis aeternae praecipimus, ut sic discrete et prompte contra suspectos vel diffamatos de huiusmodi pravitate procedant, quod malitiose aut
+            fraudulenter tantam labem, seu quod ipsos in exsecutione officii inquisitionis impediat, falso alicui non imponant. Quodsi odii, gratiae vel amoris, lucri aut commodi temporalis obtentu
+            contra iustitiam et conscientiam suam omiserint contra quemquam procedere, ubi fuerit procedendum super huiusmodi pravitate, aut obtentu eodem, pravitatem ipsam vel impedimentum officii
+            sui alicui imponendo, eum super hoc praesumpserint quoquo modo vexare: praeter alias poenas, pro qualitate culpae imponendas eisdem, episcopus aut superior suspensionis ab officio per
+            triennium, alii vero excommunicationis sententias eo ipso incurrant. A qua quidem excommunicationis sententia, qui eandem incurrerint , nisi per Romanum Pontificem nequeant, praeterquam in
+            mortis articulo, et tunc satisfactione praemissa absolutionis beneficium obtinere, nullo in hac parte privilegio suffragante. </p>
+          <p xml:id="kdhaWs-d1e626-d1e154"> §. 5. Alia sane, quae circa praemissum inquisitionis officium a nostris sunt praedecessoribus instituta, quatenus praesenti decreto non obviant, sacri
+            approbatione concilii roborata in sua volumus firmitate manere. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e626-Dd1e158">
+          <head xml:id="kdhaWs-d1e626-Hd1e160">Caput 2</head>
+          <p xml:id="kdhaWs-d1e626-d1e163"> Primo ponens constitutionis causam, determinat aetatem inquisitorum. Secundo punit inquisitores, qui praetextu officii pecuniam illicitis modis extorquent,
+            vel ob delictum clericorum ecclesiarum bona confiscant. Tertio praecipit notariis, officialibus et sociis, ut hoc facientes reprehendant et superioribus denuncient, si probare possunt.
+            Quarto prohibet inquisitoribus abusum armorum, et circa quantitatem vel qualitatem officialium. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e626-d1e166">
+            <ref xml:id="kdhaWs-d1e626-Rd1e168">Idem in eodem.</ref>
+             Nolentes splendorem solitum negotii fidei per actus indiscretos et improbos quorumvis inquisitorum haereticae pravitatis quasi tenebrosi fumi caligine obfuscari, hoc sacro concilio
+            approbante statuimus, nullis extunc , nisi qui quadragesimum aetatis annum attigerint , officium inquisitionis praedictae committi inquisitoribus, et tam ipsorum quam episcoporum seu
+            capitulorum sede vacante super hoc deputatis commissariis quibuscunque districtius iniungentes , ne praetextu officii inquisitionis quibusvis modis illicitis ab aliquibus pecuniam
+            extorqueant, nec scienter attentent ecclesiarum bona ob clericorum delictum praedicti occasione officii fisco etiam ecclesiae applicare. Quodsi secus in his vel eorum altero fecerint:
+            excommunicationis sententiae eos subiacere decernimus ipso facto, a qua non possint absolvi, praeterquam in mortis articulo, donec illis, a quibus extorserint, plene satisfecerint de
+            pecunia sic extorta, nullis privilegiis, pactis aut remissionibus super hoc valituris. Notarii vero et officiales dicti officii, nec non fratres et socii inquisitorum et commissariorum
+            ipsorum, qui dictos inquisitores aut commissarios secrete noverint talia commisisse, si indignationem Dei et apostolicae sedis vitare voluerint et offensam, ipsos graviter arguere et
+            corrigere studeant in secreto. Quodsi taliter ea sciverint, ut ea probare valeant, si sit opus; haec praelatis inquisitorum et commissariorum eorundem, ad quos id pertinebit, nunciare
+            sollicite debeant, qui equidem praelati inquisitores et commissarios praedictos reos inde repertos ab officiis amovere, et amotos alias punire debite seu corrigere teneantur. Praelatis
+            autem inquisitorum id negligentibus agere, praemissa omnia nunciari per praedictos locorum ordinarios volumus, quibus, ut ea in apostolicae sedis notitiam perferant , in virtute sanctae
+            obedientiae districte praecipimus et mandamus. Porro inquisitoribus ipsis districtius inhibemus, ut nec abutantur quomodolibet concessione portationis armorum, nec officiales nisi sibi
+            necessarios habeant tales, qui se conferant ad sua cum inquisitoribus ipsis officia exsequenda. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e626-Dd1e173">
+          <head xml:id="kdhaWs-d1e626-Hd1e175">Caput 3</head>
+          <p xml:id="kdhaWs-d1e626-d1e178"> Damnat sectam Beguardorum et Beguinarum Alemanniae, et octo ipsius errores, excitans dioecesanorum et inquisitorum officium contra illos. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e626-d1e181">
+            <ref xml:id="kdhaWs-d1e626-Rd1e183">Idem in eodem.</ref>
+             Ad nostrum, qui desideranter in votis gerimus, ut fides catholica nostris prosperetur temporibus, et pravitas haeretica de finibus fidelium exstirpetur, non sine displicentia grandi
+            pervenit auditum, quod secta quaedam abominabilis quorundam hominum malignorum, qui Beguardi , et qua-rundam infidelium mulierum, quae Beguinae vulgariter appellantur, in regno Alemanniae
+            procurante satore malorum operum, damnabiliter insurrexit, tenens et asserens doctrina sua sacrilega et perversa inferius designatos errores. Primo videlicet, quod homo in vita praesenti
+            tantum et talem perfectionis gradum potest acquirere, quod reddetur penitus impeccabilis, et amplius in gratia proficere non valebit. Nam, ut dicunt, si quis semper posset proficere,
+            posset aliquis Christo perfectior inveniri. Secundo, quod ieiunare non oportet hominem, nec orare, postquam gradum perfectionis huiusmodi fuerit assecutus, quia tunc sensualitas est ita
+            perfecte spiritui et rationi subiecta, quod homo potest libere corpori concedere quicquid placet. Tertio, quod illi, qui sunt in praedicto gradu perfectionis et spiritu libertatis, non
+            sunt humanae subiecti obedientiae, nec ad aliqua praecepta ecclesiae obligantur, quia, ut asserunt, ubi spiritus Domini, ibi libertas. Quarto, quod homo potest ita finalem beatitudinem
+            secundum omnem gradum perfectionis in praesenti assequi, sicut eam in vita obtinebit beata. Quinto, quod quaelibet intellectualis natura in se ipsa naturaliter est beata, quodque anima non
+            indiget lumine gloriae, ipsam elevante ad Deum videndum, et eo beate fruendum. Sexto, quod se in actibus exercere virtutum est hominis imperfecti, et perfecta anima licentiat a se
+            virtutes. Septimo, quod mulieris osculum, (quum ad hoc natura non inclinet,) est mortale peccatum, actus autem carnalis, quum ad hoc natura inclinet, peccatum non est, maxime quum tentatur
+            exercens. Octavo, quod in elevatione corporis Iesu Christi non debent assurgere, nec eidem reverentiam exhibere, asserentes, quod esset imperfectionis eisdem, si a puritate et altitudine
+            suae contemplationis tantum descenderent, quod circa ministerium seu sacramentum eucharistiae, aut circa passionem humanitatis Christi aliqua cogitarent. Nonnulla etiam alia sub simulata
+            quadam sanctitatis specie dicunt, faciunt et committunt, quae oculos divinae maiestatis offendunt, et grave in se continent periculum animarum. Quum autem ex debito commissi nobis officii
+            huiusmodi sectam detestabilem et praemissos ipsius exsecrandos errores, ne propagentur ulterius, et per eos corda fidelium damnabiliter corrumpantur, exstirpare ab ecclesia catholica
+            necessario habeamus: nos sacro approbante concilio sectam ipsam cum praemissis erroribus damnamus et reprobamus omnino, inhibentes districtius, ne quis ipsos de cetero teneat, approbet vel
+            defendat. Eos autem, qui secus egerint, animadversione canonica decernimus puniendos. Porro dioecesani et illarum partium inquisitores haereticae pravitatis, in quibus Beguardi et Beguinae
+            huiusmodi commorantur, suum officium circa eos diligenter exerceant, inquirentes de vita et conversatione ipsorum, qualiterve sentiant de articulis fidei et ecclesiae sacramentis. In illos
+            vero, quos culpabiles re-pererint, nisi abiuratis sponte praedictis erroribus poenituerint, et satisfactionem exhibuerint competentem, debitam exerceant ultionem. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

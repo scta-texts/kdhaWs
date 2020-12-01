@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS X. </title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS X. </title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e711">
+        <head xml:id="kdhaWs-d1e711-Hd1e102">TITULUS X. </head>
+        <head xml:id="kdhaWs-d1e711-Hd1e105" type="question-title"> DE SENTENTIA EXCOMMUNICATIONIS, SUSPENSIONIS ET INTERDICTI. </head>
+        <div xml:id="kdhaWs-d1e711-Dd1e108">
+          <head xml:id="kdhaWs-d1e711-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e711-d1e113"> Religiosi, etiam exempti, violantes interdictum, positum per sedem apostolicam vel ordinarium loci, vel generalem cessationem divinorum, factam per
+            provinciale concilium, vel eum, qui hoc possit, servatam per cathedralem vel matricem ecclesiam loci, excommunicati sunt ipso facto, non obstantibus privilegiis, conventionibus,
+            consuetudinibus et statutis; et respicit pendentia. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e711-d1e116">
+            <ref xml:id="kdhaWs-d1e711-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Ex frequentibus praelatorum querelis accepimus, et nos ipsi experientia certa probavimus in minoribus constituti, quod plerumque religiosi, nunc patenter excusationibus fucatis et
+            frivolis innitentes, nunc latenter ecclesiarum suarum ianuis perforatis, aut in eis factis fenestris, seu modis aliis exquisitis, non absque damno cathedralium et parochialium ecclesiarum
+            et scandalo plurimorum dirumpendo nervum ecclesiasticae disciplinae, civitatum, terrarum et aliorum locorum generalia interdicta praesumptione damnabili violare praesumunt. Nos igitur, in
+            sancta Dei ecclesia, cui disponente Domino praesidemus, quae quidem unica est, et unum Deum praedicat atque colit, unam fidem firmiter et simpliciter confitetur, uniformitatem, (quantum
+            commode possumus,) conservare volentes, circa interdictorum observantiam praedictorum, auctoritate sedis apostolicae vel a locorum ordinariis positorum, de fratrum nostrorum consilio
+            districte praecipiendo mandamus, quatenus religiosi quicunque tam exempti quam non exempti, cuiuscunque ordinis et conditionis exsistant, quum cathedralem vel matricem, seu parochialem
+            loci ecclesiam illa viderint aut sciverint observare, (non obstantibus quibuscunque appellationibus, antea etiam ad eandem sedem, vel alium seu alios interiectis, et aliis obiectibus
+            quibuscunque,) absque dolo et fraude, cum moderatione tamen decretalis, „Alma ,“ inviolabiliter conservent ,alioquin non servantes excommunicationis sententiae hoc ipso volumus subiacere.
+            Quod etiam in interdictis et in cessationibus a divinis, indictis per provincialium conciliorum statuta vel ipsorum auctoritate, quum maius sit provinciale concilium quam singularis
+            praelati provinciae, ac iudicium integrum, quod plurimorum sententiis comprobatur, volumus observari. In cessationibus vero generalibus a divinis civitatum, terrarum et aliorum locorum,
+            quas aliquando ex consuetudine vel aliis capitula, collegia vel conventus saecularium aut regularium ecclesiarum sibi vindicant, (quia ipsos hoc unico lumine ad repellendas iniurias eis
+            factas privare nolumus nec debemus,) idem intelligimus observandum. Ipsi vero sint diligenter attenti, ut statuta Romanorum Pontificum praedecessorum nostrorum super his edita diligenter
+            observent. Porro hanc sanctionem ad pendentia trahimus, non obstantibus privilegiis, conventionibus, statutis et consuetudinibus quibuslibet, quae contra praemissa seu aliquod praemissorum
+            religiosis ipsis in nullo volumus suffragari. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e711-Dd1e123">
+          <head xml:id="kdhaWs-d1e711-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e711-d1e128"> Domini temporales, qui cogunt aliquos in loco interdicto celebrare divina, vel qui per praecones faciunt tunc ad illa audienda populum evocari, vel
+            prohibent, ne publice excommunicati vel interdicti, super hoc per illos, qui missas celebrant, moniti, ecclesias exeant, et ipsi nominatim moniti, qui non exeunt, excommunicati sunt, et
+            per Papam absolvendi. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e711-d1e131">
+            <ref xml:id="kdhaWs-d1e711-Rd1e133">Idem.</ref>
+             Gravis ad nos praelatorum querela perduxit, quod nobiles quidam et domini temporales, terris eorum ecclesiastico suppositis interdicto, nedum in locorum suorum capellis, sed et in
+            collegiatis et aliis insignium locorum ecclesiis missas et alia divina officia publice et solenniter faciunt celebrari, ad officia eadem celebranda nunc hos, nunc illos vocantes, et
+            interdum, (quod est deterius,) compellentes, hisque non contenti excessibus per campanarum non solum pulsationem, sed et voce praeconia populos etiam interdictos, ut interdicti non
+            obstante sententia ad audiendas missas huiusmodi veniant, faciunt evocari. Nonnulli quoque ipsorum suis plerumque subiectis, ne, licet excommunicationis vel interdicti sententia publice
+            sint innodati de ecclesiis, dum in ipsis missarum celebrantur solennia, instantibus etiam celebrantibus exeant, praecipere non verentur, ex quo frequenter contingit, quod non sine Dei
+            offensa clerique ac populi scandalo ipsa missarum solennia remanent inexpleta. Ne igitur excessus sic graves excedentium impunitate trahantur ab aliis in exemplum: praesumptores praefatos,
+            qui locis interdicto suppositis quemquam de cetero divina celebrare officia quomodolibet cogere, aut qui modo praedicto ad officia eadem audienda aliquos, excommunicationis praesertim vel
+            interdicti ligatos sententia, evocare, seu qui, ne excommunicati publice aut interdicti de ecclesiis, dum in ipsis missarum aguntur solennia, a celebrantibus moniti, ut exeant, prohibere ,
+            nec non excommunicatos publice et interdictos, qui in ipsis ecclesiis, nominatim a celebrantibus ut exeant moniti, remanere praesumpserint, excommunicationis sententia, a qua per sedem
+            duntaxat apostolicam possint absolvi, sacro approbante concilio innodamus. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e711-Dd1e138">
+          <head xml:id="kdhaWs-d1e711-Hd1e140">Caput 3</head>
+          <p xml:id="kdhaWs-d1e711-d1e143"> Fratres Minores, si tempore interdicti recipiunt in suis ecclesiis ad divina fratres et sorores tertii ordinis, excommunicati sunt, nec privilegia iuvant.
+            H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e711-d1e146"> Idem. Quum ex eo, quod religiosi viri fratres Minores in suis recipiunt ecclesiis ad audienda divina officia tempore interdicti fratres et sorores, de
+            ordine tertio, quem B. Franciscus instituit, exsistentes, qui continentes seu de poenitentia nuncupantur, scandalum aliorum , qui ab his excluduntur, mentibus generetur, censura vilescat
+            ecclesiastica, et minoris auctoritatis interdicti sententia reputetur: eisdem fratribus Minoribus districtius inhibemus, ne de cetero aliquem vel aliquos praedictorum, (etiamsi super hoc
+            hi vel illi privilegiis quibuscunque muniti exstiterint, quae ipsis in nullo prorsus quoad hoc volumus suffragari,) ad divina in suis ecclesiis tempore interdicti quoquo modo admittant.
+            Quod si fecerint, eo ipso excommunicationis sententiae se noverint subiacere, a qua per alium, quam per Romanum Pontificem, vel satisfactione praemissa per locorum episcopos, (quos
+            auctoritate apostolica fungi volumus in hac parte,) absolutionis beneficium nequeant obtinere. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e711-Dd1e151">
+          <head xml:id="kdhaWs-d1e711-Hd1e153">Caput 4</head>
+          <p xml:id="kdhaWs-d1e711-d1e156"> Si Papa etiam scienter excommunicato participat, illum per hoc non absolvit, nisi exprimat hoc se velle. Et si scienter sub titulo dignitatis aliquem
+            nominet vel honoret, per hoc illum in dignitate non approbat. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e711-d1e159">
+            <ref xml:id="kdhaWs-d1e711-Rd1e161">Idem.</ref>
+             Si summus Pontifex scienter etiam excommunicato participet literis, verbo vel osculo seu alio quovis modo: ipsum per hoc absolvere nulla ratione censetur, nisi se velle forsitan exprimat,
+            illum ex hoc pro absoluto haberi. Similiter quoque, si quem sub titulo cuiuslibet dignitatis ex certa etiam scientia, verbo, constitutione vel literis nominet, honoret seu quovis alio modo
+            tractet: per hoc in dignitate illa ipsum approbare non intelligitur, aut quicquam ei tribuere novi iuris. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

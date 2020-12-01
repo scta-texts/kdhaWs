@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS VII</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS VII</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e277">
+        <head xml:id="kdhaWs-d1e277-Hd1e102">TITULUS VII</head>
+        <head xml:id="kdhaWs-d1e277-Hd1e105" type="question-title"> DE PROBATIONIBUS. </head>
+        <div xml:id="kdhaWs-d1e277-Dd1e108">
+          <head xml:id="kdhaWs-d1e277-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e277-d1e113"> Verba literarum apostolicarum, quibus Papa proprium factum narrat, plene probant, si super illis gratia vel intentio Papae fundatur. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e277-d1e116">
+            <ref xml:id="kdhaWs-d1e277-Rd1e118">Clemens V. in concilio Viennensi</ref>
+             . Literis nostris, quibus nos dignitates quaslibet seu beneficia collationi nostrae vel sedi apostolicae reservasse, aut resignationem beneficii alicuius recepisse, vel recipiendi
+            potestatem alii commisisse, vel aliquem excom-municasse seu suspendisse, seu aliquem capellanum nostrum vel familiarem fuisse, vel alia similia, super quibus gratia vel intentio nostra
+            fundatur, fecisse narramus, censemus super sic narratis fidem plenariam adhibendam, volentes ad praeterita et pendentia, etiam per appellationem, negotia hoc extendi. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS VIII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS VIII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e687">
+        <head xml:id="kdhaWs-d1e687-Hd1e102">TITULUS VIII.</head>
+        <head xml:id="kdhaWs-d1e687-Hd1e105" type="question-title"> DE POENIS. </head>
+        <div xml:id="kdhaWs-d1e687-Dd1e108">
+          <head xml:id="kdhaWs-d1e687-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e687-d1e113"> Percutiens episcopum, capiens, et banniens,vel hoc mandans, vel ratificans, socius, consiliarius, fautor et defensator, cum suis posteris, civitas in hoc
+            delinquens, et eius officiales, poenis variis per concilium puniuntur. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e687-d1e116"> §. 1. Excusat rigorem, dicens, quod graviores poenae deberent imponi. Ioann. Andr. — </p>
+          <p xml:id="kdhaWs-d1e687-d1e119"> §. 2- Repetit ius antiquum de absolutis in mortis articulo, qui sanati reincidunt, si non satisfaciant. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e687-d1e122">
+            <ref xml:id="kdhaWs-d1e687-Rd1e124">Clemens V. in concilio Viennensi.</ref>
+             Si quis suadente diabolo in hoc sacrilegii genus proruperit, quod quemvis pontificem iniuriose vel temere percusserit, aut ceperit seu banniverit, vel haec mandaverit fieri, aut facta ab
+            aliis rata habuerit, vel socius in his fuerit facientis, aut consilium in his dederit aut favorem, seu scienter defensaverit eundem: in illis casibus de praedictis, in quibus
+            excommunicationem per iam editos canones non subiret, sit huius nostrae constitutionis auctoritate, non obstante quacunque consuetudine, quam reputamus approbante sacro concilio potius
+            corruptelam, anathematis mucrone percussus, a quo nequeat, nisi per summum Pontificem, praeterquam in articulo mortis, absolvi. A feudis insuper, locationibus, officiis et beneficiis
+            spiritualibus sive temporalibus, quae ab ecclesia, cui sic offensus praeest episcopus, obtinet, cadat hoc ipso, ac ad eandem ecclesiam libere revertantur. Ipsius filii, per masculinam
+            descendentes lineam usque ad generationem secundam, omni spe dispensationis adempta, reddantur ipso facto inhabiles ad ecclesiastica beneficia in civitate et dioecesi, in quibus idem
+            episcopus praesidet, obtinenda. Terra quoque ipsius, (dum tamen ultra unam dioecesim non contineat,) usque ad condignam satisfactionem eiusdem, nec non locus aut loca , in quibus captus
+            episcopus detinebitur, quamdiu detentio ipsa in eisdem duraverit, ecclesiastico subiaceant interdicto. Quodsi terra eiusdem duas dioeceses vel ultra contineat: dioecesis domicilii
+            principalis ipsius, et illa etiam, in qua fuerit delictum commissum, si sua sit, et duae aliae, quae sub ipso sint eidem loco magis vicinae, interdicto subiaceant supra dicto. Et quia eo
+            maior erit ipsius confusio, quo sua fuerit culpa patentior: quousque dignam satisfactionem praestiterit, per omnes illius loci, in quo commissum est facinus, nec non civitatum et dioecesum
+            vicinarum ecclesias, quibuslibet diebus dominicis et festivis, pulsatis campanis et candelis accensis excommunicatus publice nuncietur. Et quum absolvendus fuerit, sufficienter et idonee
+            caveat, quod inferendae poenae parebit, et auxiliante Domino poenitentiam peraget iniungendam. Civitas autem, quae praemissa vel eorum aliquod in episcopum suum commiserit, interdicto,
+            donec satisfecerit, subiaceat memorato. Potestas vero, consiliarii, ballivus , scabini, advocati, consules, rectores et officiales ipsius quocunque nomine censeantur, in praemissis
+            culpabiles exsistentes, similiter excommunicationis sententiae, a qua, (nisi ut praemittitur,) non valeant absolutionis obtinere beneficium, sint subiecti. Quae omnia tanto magis in
+            episcoporum interfectoribus sunt servanda, quanto in eos severior, quam in praefatos poena debet exsurgere, et gravioris indignationis aculeus desaevire. </p>
+          <p xml:id="kdhaWs-d1e687-d1e129"> §. i. Nec super haec quisquam miretur, quod praemissa perpetrantibus poenas non inferimus graviores. Licet enim, (quod dicere pudet,) haec , proh dolor!
+            frequenter occurrant, multis que grassantibus opus esset exemplo, et ex dignitate offensi poenam metiri deceat offendentis; episcopi enim dicuntur sanctissimi, Christi legati exsistunt,
+            spirituales sunt patres, nostrique fratres et coepiscopi, columnae comprobantur ecclesiae, quare gravem oporteret esse poenam culpae violantis dignitatem tantae praeeminendae adaequandam:
+            volumus tamen ad praesens in poenarum exaggeratione temperare rigorem, ad poenas alias processuri, si protervitatem delinquentium hoc exposcere videamus. </p>
+          <p xml:id="kdhaWs-d1e687-d1e132"> §. 2. Sane, si quis in aliquo casuum praedictorum fuerit ab excommunicationis sententia in mortis articulo absolutus, nisi, postquam pristinae restitutus
+            fuerit sanitati, quam cito commode poterit, conspectui Romani Pontificis se praesentare curaverit, eius mandatum humiliter recepturus, prout iustitia suadebit: in eandem excommunicationis
+            sententiam reincidat ipso facto. Quamvis enim super hoc satis plene in iure alibi sit provisum: ne tamen aliquis in hoc ex ignorantia iuris se satagat excusare, hoc expresse praemissis
+            duximus ad-nectendum. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e687-Dd1e136">
+          <head xml:id="kdhaWs-d1e687-Hd1e138">Caput 2</head>
+          <p xml:id="kdhaWs-d1e687-d1e141"> Procurantes capi viros ecclesiasticos, ut renuncient beneficiis, vel ut citati non vadant ad curiam, praeter poenam excommunicationis, quam per canones
+            antiquos incurrunt, si sint praelati, a perceptione fructuum per triennium sunt suspensi, inferiores vero beneficiis sunt privati. Eandem poenam incurrunt ipsi citati, qui se capi
+            procurant. Resignatio etiam sic facta non tenet, etiamsi per praelatos recepta fuerit vel ratificata. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e687-d1e144">
+            <ref xml:id="kdhaWs-d1e687-Rd1e146">Idem.</ref>
+             Multorum ad nos gravis querela deduxit, quod nonnulli, obtinentes temporale dominium, viros saepe ecclesiasticos capere, captosque, donec sua resignent beneficia, aut ne citati ad
+            apostolicam sedem ab homine vel a iure venire ad ipsam valeant, ausu detinere sacrilego non verentur, citatos eosdem in exitu eorum districtuum ut plurimum capientes. </p>
+          <p xml:id="kdhaWs-d1e687-d1e150"> Considerantes igitur, quantum ex his tam nostro et aposto-licae sedis honori, quam personarum ecclesiasticarum quieto et prospero statui non sine damnanda
+            exempli pernicie derogetur, sacro approbante concilio statuimus, ut praeter sententiam canonis, quam facientes et fieri procurantes praemissas incurrere dignoscuntur, procurantes ipsi,
+            personae ecclesiasticae exsistentes, a perceptione fructuum ecclesiarum suarum, si fuerint praelati, triennio sint suspensi. Quodsi inferiores exstiterint, eo ipso obtentis beneficiis sint
+            privati, illis poenam incursuris eandem, qui, ne citati, ut praemittitur, ad sedem apostolicam veniant, sed ut se obtentu huiusmodi a veniendo excusent, a potestate saeculari se capi, ut
+            interdum contigisse audivimus, procurarint . Sane resignationes beneficiorum, modo supra dicto extortas, (licet a resignantium ipsorum praelatis receptae aut ratae habitae fuerint,)
+            nullius omnino decernimus esse firmitatis, locorum ordinariis Iniungentes, ut, postquam eis constiterit, aliquos sibi subiectos poenam et sententiam incurrisse praemissas, ipsas publicare
+            non differant, exsecutionique debitae, prout ad eos pertinuerit , demandare. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e687-Dd1e154">
+          <head xml:id="kdhaWs-d1e687-Hd1e156">Caput 3</head>
+          <p xml:id="kdhaWs-d1e687-d1e159"> Excommunicat religiosos mendicantes transgressores constitutionis Bonifacii de^ excess. praelat. cap. unie. libr. VI. Item omnes religiosos, qui in
+            sermonibus vel alibi proferunt aliqua, ut retrahant a solutione decimarum, quarum solutionem certis diebus et in confessionibus suadere tenentur sub certis poenis, quas incurrunt, nisi
+            sint tales, quorum monasteriis vel ecclesiis competit percipere decimas. Ioann. Andr. — Excommunicat violatores decret. de sepult. libr. VI. et absolutiones Papae reservat. H. d. Ioann.
+            Andr. </p>
+          <p xml:id="kdhaWs-d1e687-d1e162">
+            <ref xml:id="kdhaWs-d1e687-Rd1e164">Idem.</ref>
+             Cupientes eos, quos ad observantiam iurium virtutum praemia non inducunt, tam adiectarum exaggeratione poenarum, quam adiiciendarum de novo formidine a temerariis ausibus refrenare,
+            transgressores constitutionis , quae religiosis mendicantibus domos ad habitandum vel loca quaecunque de novo recipere, recepta hucusque mutare, vel ea transferre in alios cuiusvis
+            alienationis titulo interdicit, illos etiam religiosos, qui aliqua, ut audientes a decimarum ecclesiis debitarum solutione retrahant, in sermonibus suis vel alibi proferre praesumunt,
+            excommunicationis subiacere sententiae decernimus ipso facto. Et quia, nisi fiat, quod bonum est, a malo abstinere non sufficit: religiosis omnibus iniungimus sub obtestatione divini
+            iudicii et interminatione maledictionis aeternae, ut, quoties populo praedicabunt in prima dominica, quarta et ultima quadragesimae, et in festis Adscensionis dominicae. Pentecostes,
+            Nativitatis beati Ioannis baptistae, Assumptionis et Nativitatis beatissimae virginis Mariae matris Dei, audientes expresse studeant informare, si ab ecclesiarum rectoribus, vel vicariis
+            aut loca tenentibus eorundem requisiti fuerint, nec non et his, quorum confessiones audient, conscientiam facere, quod decimas solvere non omittant. Quodsi forte in praedicationibus hoc
+            ipsum supra dictis diebus suadere scienter omiserint: per superiores eorum graviter arguantur. Quibus etiam superioribus in virtute sanctae obedientiae districte praecipimus, ut contra
+            taliter omittentes statuta poenalia faciant, secundum quae sic acriter puniant transgressores, quod poena eorum sit ceteris in exemplum, constitutione bonae memoriae Gregorii Papae X.
+            praedecessoris nostri circa haec edita in suo nihilominus robore duratura. Qui vero scienter postposuerint confitentibus conscientiam facere de solvendis huiusmodi decimis, ab officio
+            praedicationis tamdiu maneant ipso facto suspensi, donec confitentibus ipsis, si hoc ipsum sibi dicendi commode facultatem habuerint, conscientiam fecerint, exinde excommunicationis
+            incursuri sententiam ipso facto, si praedicare praesumpserint, praedicta negligentia, ut praemittitur, non purgata; ad religiosos tamen monasteriorum vel rectores ecclesiarum decimas
+            percipientium nolumus hoc extendi. Sane, temerarios violatores constitutionis illius, quae religiosis et clericis saecularibus prohibet, ne aliquos ad vovendum, iurandum, vel fide
+            interposita, seu alias promittendum inducant, ut sepulturam apud eorum ecclesias eligant, vel iam electam ulterius non immutent, similem sententiam, (poena in dicta constitutione contenta
+            in suo perdurante robore,) incurrere volumus ipso facto, ab alio quam a sede apostolica, praeterquam in mortis articulo, nullatenus absolvendos, nullis privilegiis aut statutis,
+            cuiuscunque tenoris exsistant , super his valituris. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

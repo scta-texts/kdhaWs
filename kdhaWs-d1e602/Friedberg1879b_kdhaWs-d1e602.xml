@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS I.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS I.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e602">
+        <head xml:id="kdhaWs-d1e602-Hd1e102">TITULUS I.</head>
+        <head xml:id="kdhaWs-d1e602-Hd1e105" type="question-title"> DE MAGISTRIS, ET NE ALIQUID EXIGATUR PRO LICENTIA DOCENDI. </head>
+        <div xml:id="kdhaWs-d1e602-Dd1e108">
+          <head xml:id="kdhaWs-d1e602-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e602-d1e113"> In studiis Romanae curiae, Parisiensi, Oxoniensi, Bononiensi et Salaman-tino, debent esse magistri catholici, scholas regentes in linguis Hebraica, Arabica
+            et Chaldaea, duo scilicet pro qualibet lingua. Et statuitur, per quos eis debeat de stipendiis et sumptibus provideri. </p>
+          <p xml:id="kdhaWs-d1e602-d1e116">
+            <ref xml:id="kdhaWs-d1e602-Rd1e118">Clemens V. in concilio Viennensi.</ref>
+             Inter sollicitudines nostris humeris incumbentes perpeti cura revolvimus, ut errantes in viam veritatis inducere, ipsosque lucrifacere Deo sua nobis cooperante gratia valeamus, hoc est,
+            quod profecto desideranter exquirimus, ad id nostrae mentis sedulo destinamus affectum, ac circa illud diligenti studio et studiosa diligentia vigilamus. Non ambigimus autem, quin ad
+            huiusmodi nostrum desiderium assequendum divinorum eloquiorum sit expositio congrua, ipsorumque fidelis praedicatio admodum opportuna. Sed nec ignoramus, quin et haec promi noscantur
+            inaniter vacuaque redire, si auribus linguam loquentis ignorantium proferantur. Ideoque illius, cuius vicem in terris, licet immeriti, gerimus, imitantes exemplum, qui ituros per universum
+            mundum ad evangelizandum Apostolos in omni linguarum genere fore voluit eruditos, viris catholicis notitiam linguarum habentibus, quibus utuntur infideles praecipue, abundare sanctam
+            affectamus ecclesiam, qui infideles ipsos sciant et valeant sacris institutis instruere, Christicolarumque collegio per doctrinam Christianae fidei ac susceptionem sacri baptismatis
+            aggregare. Ut igitur peritia linguarum huiusmodi possit habiliter per instructionis efficaciam obtineri: hoc sacro approbante concilio scholas in subscriptarum linguarum generibus,
+            ubicunque Romanam curiam residere contigerit , nec non in Parisiensi et Oxoniensi , Bononiensi et Salamantino studiis providimus erigendas, statuentes, ut in quolibet locorum ipsorum
+            teneantur viri catholici, sufficientem habentes hebraicae , arabicae et chaldaeae linguarum notitiam, duo videlicet uniuscuiusque linguae periti, qui scholas regant inibi, et libros de
+            linguis ipsis in latinum fideliter transferentes, alios linguas ipsas sollicite doceant, earumque peritiam studiosa in illos instructione transfundant, ut instructi et edocti sufficienter
+            in linguis huiusmodi fructum speratum possint Deo auctore producere, fidem propagaturi salubriter in ipsos populos infideles. Quibus equidem in Romana curia legentibus per sedem
+            apostolicam, in studiis vero Parisiensi per regem Franciae, in Oxoniensi Angliae , Scotiae, Hiberniae ac Waliae, in Bononiensi per Italiae, in Salamantino per Hispaniae praelatos,
+            monasteria, capitula, conventus, collegia exempta et non exempta, et ecclesiarum rectores in stipendiis competentibus et sumptibus volumus provideri, contributionis onere singulis iuxta
+            facultatum exigentiam imponendo, privilegiis et exemptionibus quibuscunque contrariis nequaquam obstantibus, quibus tamen nolumus quoad alia praeiudicium generari. </p>
+        </div>
+
+        <div xml:id="kdhaWs-d1e602-Dd1e123">
+          <head xml:id="kdhaWs-d1e602-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e602-d1e128"> Is, ad quem spectat magisterium vel doctoratum tribuere, prius a docto-rando recipiat iuramentum, quod in solennitate sua non expendet ultra summam trium
+            millium Turonensium argenteorum. Quod si non fecerit, etiamsi sit episcopus, per sex menses a collatione magisterii est suspensus. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e602-d1e131">
+            <ref xml:id="kdhaWs-d1e602-Rd1e133">Idem.</ref>
+             Quum sit nimis absurdum, ut quis cum vanitate et imperitia ad honorem adscendat peritiae literarum: non sine turbatione miramur, illum apud scholasticos invaluisse abusum, quod plerique
+            eorum, qui in quavis scientia ad doctoratus vel magisterii assumuntur honorem, quum sua solenniter principia faciunt, aut sui recipiunt insignia doctoratus, circa cibos, vestes et alia sic
+            in expensis excedunt, quod et ipsi transeunte expensarum huiusmodi vanitate vacui plerumque remaneant et gravati, et ceteri, qui vel nolunt vel nequeunt similes expensas subire, hac
+            occasione frequenter a receptione honoris huiusmodi retrahuntur. Volentes igitur de opportuno super his remedio providere, illis, ad quos ubilibet pertinet honorem tribuere memoratum,
+            districte praecipimus, ut quoscunque, ab eis de cetero dictum recipientes honorem, iuramento prius adstringant, ne ultra tria millia Turonensium argenteorum in solennitate circa huiusmodi
+            doctoratum aut magisterium quomodolibet adhibenda expendant, ipsosque nihilominus, nisi forsan notabilis conditionis exstiterint, ut infra summam praedictam huiusmodi moderentur expensae,
+            efficaciter exhortantes, ac si hoc illorum congruere statui viderint, iuramentum exigentes ab eis, quod certos, infra summam praefatam taxandos ab ipsis, expensarum terminos non excedant.
+            Si quis autem, pontificali etiam dignitate praefulgens, non recepto prius iuramento praefato honorem cuique tribuerit supra dictum: a collatione magisterii seu doctoratus cuiuslicet per
+            sex menses sequentes eo ipso noverit se suspensum. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

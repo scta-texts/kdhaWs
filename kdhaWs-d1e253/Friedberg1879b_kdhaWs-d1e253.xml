@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS V.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS V.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e253">
+        <head xml:id="kdhaWs-d1e253-Hd1e102">TITULUS V.</head>
+        <head xml:id="kdhaWs-d1e253-Hd1e105" type="question-title"> UT LITE PENDENTE NIL INNOVETUR. </head>
+        <div xml:id="kdhaWs-d1e253-Dd1e108">
+          <head xml:id="kdhaWs-d1e253-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e253-d1e113"> Si duo litigantes super beneficio moriantur, sive uterque in curia, vel solus possidens, vel, neutro possidente, alter tantum, altero alibi moriente: ad
+            Papam, et in conversis casibus ad ordinarium spectat collatio, si ad alterum beneficium pertinebat. Si autem alter tantum moritur, si superstes, vel alius, cuius intersit, litem
+            prosequitur: ex futuro eventu apparebit, ad quem collatio spectat. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e253-d1e116">
+            <ref xml:id="kdhaWs-d1e253-Rd1e118">Clemens V. in concilio Viennensi</ref>
+             . Si duobus in Romana curia super beneficio sibi collato litigantibus, in eadem curia mori contingat utrumque: collationem huiusmodi beneficii ad Romanum Pontificem, si vero extra dictam
+            curiam, ad ordinarium decernimus pertinere, nisi forsan alius ab eis in dicto beneficio ius haberet. Quod-si unum in dicta curia, alterum vero extra mori contingat, si moriens in curia
+            beneficium possidebat: ad Romanum Pontificem, si vero alius, ad ordinarium pertineat collatio supra dicta. Neutro autem ipsorum beneficium possidente, erit Romanus Pontifex propter
+            auctoritatis praerogativam in collatione huiusmodi praeferendus. Si vero alter tantummodo, sive possessor sive petitor, decedat, si superstes, vel alius, cuius intersit, causam nihilominus
+            prosequatur, (quum interim beneficium de iure conferri non possit,) ad quem collatio eius pertineat, futurus declarabit eventus. Nam si ad defunctum pertinuisse beneficium fuerit
+            declaratum: pertinebit ad Papam, si ille in curia, vel ad ordinarium, si extra curiam sit defunctus. ^ Quodsi ad neutrum illud spectasse constiterit: ad ordinarium collatio pertinebit,
+            salva tamen in praemissis omnibus Romani Pontificis potestate, ad quem ecclesiarum, personatuum, dignitatum aliorumque beneficiorum ecclesiasticorum plena et libera dispositio ex suae
+            potestatis plenitudine noscitur pertinere. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e253-Dd1e123">
+          <head xml:id="kdhaWs-d1e253-Hd1e125">Caput 2</head>
+          <p xml:id="kdhaWs-d1e253-d1e128"> Lis dicitur pendere quoad hoc, ut nihil debeat innovari, quum citatio legitime pervenit ad partem, vel per eam stetit, quo minus perveniret, cum tali
+            expressione, quod potuit instrui super quo conveniatur. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e253-d1e131">
+            <ref xml:id="kdhaWs-d1e253-Rd1e133">Idem.</ref>
+             Quum, lite pendente nihil debeat innovari, litem quoad hoc pendere censemus, postquam a iudice competenti in ea citatio emanavit, et ad partem citatam pervenit, vel per eam factum fuit,
+            quo minus ad eius notitiam perveniret; dum tamen in citatione praedicta talia sint expressa, per quae plene possit instrui, super quibus in iudicio convenitur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

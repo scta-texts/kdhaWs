@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS II.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS II.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e614">
+        <head xml:id="kdhaWs-d1e614-Hd1e102">TITULUS II.</head>
+        <head xml:id="kdhaWs-d1e614-Hd1e105" type="question-title"> DE IUDAEIS ET SARRACENIS. </head>
+        <div xml:id="kdhaWs-d1e614-Dd1e108">
+          <head xml:id="kdhaWs-d1e614-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e614-d1e113"> Principes Christiani compescere debent Sarracenos sibi subiectos ab invocatione publica nominis Machometi, et a peregrinatione, quam facere solent ad
+            sepulcrum ipsius. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e614-d1e116">
+            <ref xml:id="kdhaWs-d1e614-Rd1e118">Clemens V. in concilio Viennensi</ref>
+             . Cedit quidem in offensam divini nominis et opprobrium fidei Christianae, quod in quibusdam mundi partibus principibus Christianis subiectis, in quibus interdum seorsum, interdum vero
+            permixtim cum Christianis habitant Sarraceni, sacerdotes eorum, Zabazala vulgariter nuncupati, in templis seu mesquitis suis, ad quae iidem Sarraceni conveniunt, ut ibidem adorent perfidum
+            Machometum, diebus singulis certis horis in loco aliquo eminenti eiusdem Machometi nomen, Christianis et Sarracenis audientibus, alta voce invocant et extollunt, ac ibidem verba quaedam in
+            illius honorem publice profitentur; ad locum insuper, ubi olim quidam sepultus exstitit Sarracenus, quem ut sanctum Sarraceni alii venerantur et colunt, magna Sarracenorum earundem partium
+            et etiam aliarum confluit publice multitudo, ex quibus nostrae fidei non modicum detrahitur, et grave in cordibus fidelium scandalum generatur. Quum autem haec in divinae maiestatis
+            displicentia non sint ullatenus toleranda : sacro approbante concilio, ipsa in terris Christianorum districtius fieri deinceps inhibemus, universis et singulis principibus catholicis, sub
+            quorum dominio dicti Sarraceni morantur et fiunt praedicta, sub obtestatione divini iudicii obnoxius iniungentes, quatenus ipsi, tanquam veri catholici et Christianae fidei seduli
+            zelatores, opprobrium, quod tam ipsis quam ceteris Christicolis per praemissa ingeritur, debita consideratione pensantes, ipsum, (ut proinde aeternae beatitudinis praemium assequantur,) de
+            terris suis omnino auferant, et a suis subditis auferri procurent, inhibendo expresse, ne praefata invocatio seu professio nominis ipsius sacrilegi Machometi publice, aut peregrinatio
+            praelibata ab aliquo in eorum exsistente dominio audeat attentari de cetero vel quomodolibet sustineri. Hi vero, qui secus praesumpserint, taliter ob divinam reverentiam castigentur ab
+            ipsis, quod alii, eorum exemplo perterriti, a praesumptione simili arceantur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS V.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS V.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e112">
+        <head xml:id="kdhaWs-d1e112-Hd1e102">TITULUS V.</head>
+        <head xml:id="kdhaWs-d1e112-Hd1e105" type="question-title">&gt;DE SUPPLENDA NEGLIGENTIA PRAELATORUM.</head>
+        <div xml:id="kdhaWs-d1e112-Dd1e108">
+          <head xml:id="kdhaWs-d1e112-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e112-d1e113"> Si praelati regulares non conferunt infra sex menses prioratus, administra-tiones et ecclesias vacantes, quae non sunt de mensa, sed solent speciales licet
+            obedientiarios rectores habere: dioecesani auctoritate sua, vel apostolica, si sint exempta, conferunt illa personis, quibus per praelatos fuerant conferenda. Nec permittunt, illa
+            applicari mensis praelatorum, vel pensionibus gravari. Declarantur etiam decret. libr. VI. de offic. ordin. Praesenti, et de praebend. Quum singula in talibus prioratibus et ecclesiis
+            locum habere. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e112-d1e116">
+            <ref xml:id="kdhaWs-d1e112-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Quia regulares praelati prioratus, ecclesias, administra-tiones aut quaevis alia beneficia, ad eorum dispositionem spectantia, quum vacant, interdum committere negligunt vel conferre
+            infra tempus in Lateranensi concilio constitutum : dioecesani locorum in non exemptis sua, in exemptis vero apostolica auctoritate negligentiam super hoc suppleant eorundem, prioratus,
+            ecclesias, administrationes et beneficia huiusmodi, illa videlicet, quae consueverunt per saeculares clericos gubernari, saecularibus clericis, alia vero, quae religiosis duntaxat committi
+            sunt solita vel conferri, religiosis monasteriorum, quorum praelati huiusmodi negligentes fuerint, conferendo. Eadem quoque auctoritate dioecesani suffulti nullo modo permittant, quod
+            iidem praelati prioratus, ecclesias , administrationes aut beneficia huiusmodi applicent mensis suis, pensionesve novas eis imponant, aut veteres augeant, sive quae ipsis de novo
+            impositae, sive auctae solvantur. Praemissa vero de prioratibus, ecclesiis , administrationibus et beneficiis intelligimus, quae non sunt de mensa praelatorum ipsorum, sed speciales
+            priores, administratores seu rectores consueverunt habere, licet priores seu administratores huiusmodi libere possint ad claustrum, quum oportuerit, revocari. In quibus etiam
+            constitutionem Bonifacii Papae VIII. praedecessoris nostri,bona beneficiorum vacantium occupari a praelatis vel aliis prohibentem, ac nihilominus in prioratibus huiusmodi et ecclesiis
+            illud Bonifacii eiusdem statutum , quod religiosum quemcunque pluribus praeesse prohibet prioratibus aut ecclesiis curam animarum habentibus, etiamsi cura ipsa non per eum, sed per alium
+            habeat exerceri, locum sibi censuimus vendicare, licet etiam eisdem prioratibus cura non immineat supra dicta. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

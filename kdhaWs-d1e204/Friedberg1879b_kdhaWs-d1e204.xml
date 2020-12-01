@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> TITULUS I. </title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title> TITULUS I. </title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e204">
+        <head xml:id="kdhaWs-d1e204-Hd1e102"> TITULUS I. </head>
+        <head xml:id="kdhaWs-d1e204-Hd1e105" type="question-title"> DE IUDICIIS. </head>
+        <p xml:id="kdhaWs-d1e204-d1e108"> CAP. I. </p>
+        <p xml:id="kdhaWs-d1e204-d1e111"> Constitutio Bonifacii, quae habet, quod citationes, etiam extra dies solennes publice factae de mandato Papae, in audientia literarum aposto-licarum vel
+          papali palatio, affixae ianuis maioris ecclesiae loci, in quo Papa cum curia sua degit, arctent citatum, ac si ad eum personaliter devenissent, restringitur ad eos, qui impediunt, ne ad eos
+          possit citatio pervenire, vel quorum domicilium tute non potest adiri. Ioann. Andr. </p>
+        <p xml:id="kdhaWs-d1e204-d1e114"> Clemens V. in concilio Viennensi . </p>
+        <p xml:id="kdhaWs-d1e204-d1e118"> Dudum Bonfacius Papa VIII. praedecessor noster constituit, ut citationes, auctoritate apostolica de personis quibuscunque ac etiam undecunque ad instar
+          edictorum in albo praetoris propositorum, etiam extra dies solennes, in quibus Romani Pontifices processus consueverunt facere generales, ipso Papa specialiter et ex certa scientia id
+          mandante factae, in apostolicarum audientia publica literarum vel in papali palatio, publice postmodum maioris ecclesiae loci, in quo Romanus Pontifex cum sua curia residebit, ianuis
+          affigendae, sic valeant atque arctent citatos post lapsum terminum , quem, considerata distantia locorum, citationibus ipsis apponi convenit competentem, ac si ad eos personaliter
+          devenissent. Quia vero statutum ipsum rationabiliter editum propter malitiam temporis tunc instantis nonnullis nimis rigorosum videtur: nos, rigorem ipsum mansuetudine temperantes, idem
+          statutum et praefatum modum citandi restringimus ad illos tantum, et in illis locum volumus sibi vindicare, qui faciunt, impediunt vel procurant per se vel per alios quoquo modo, ne ad eos
+          possit citatio pervenire , vel quorum domicilia sive loca non possunt tute libereve adiri. Porro ei, quod circa citationes absentium tam diebus solennibus quam aliis ecclesia Romana diversis
+          ex causis interdum facere consuevit, per praesentem constitutionem seu moderationem in nullo volumus derogari. </p>
+        <p xml:id="kdhaWs-d1e204-d1e121"> CAP. II. </p>
+        <p xml:id="kdhaWs-d1e204-d1e124"> In causis etiam pendentibus beneficialibus, decimarum, matrimonialibus, et usurarum, et ipsas tangentibus, procedi potest simpliciter et de plano absque
+          iudiciorum strepitu et figura. Ioann. Andr. </p>
+        <p xml:id="kdhaWs-d1e204-d1e127"> Idem . </p>
+        <p xml:id="kdhaWs-d1e204-d1e130"> Dispendiosam prorogationem litium, quam interdum ex subtili ordinis iudiciarii observatione causarum docet experientia provenire, restringere in subscriptis
+          casibus cupientes, statuimus, ut in causis super electionibus, postulationibus vel provisionibus, aut super dignitatibus, persona-tibus, officiis, canonicatibus, vel praebendis seu quibusvis
+          beneficiis ecclesiasticis, aut super decimis, ad quarum etiam praestationem possunt, qui tenentur ad eas, praemoniti censura ecclesiastica coerceri, nec non super matrimoniis vel usuris, et
+          eas quoquo modo tangentibus , ventilandis, procedi valeat de cetero simpliciter et de plano, ac sine strepitu iudicii et figura, volentes non solum ad futura negotia, sed ad praesentia, et
+          adhuc etiam per appellationem pendentia hoc extendi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS XII.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS XII.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e338">
+        <head xml:id="kdhaWs-d1e338-Hd1e102">TITULUS XII.</head>
+        <head xml:id="kdhaWs-d1e338-Hd1e105" type="question-title"> DE APPELLATIONIBUS. </head>
+        <div xml:id="kdhaWs-d1e338-Dd1e108">
+          <head xml:id="kdhaWs-d1e338-Hd1e110">Caput 1</head>
+
+
+
+
+          <p xml:id="kdhaWs-d1e338-d1e113"> Valet appellatio coram maiore parte plurium iudicum; sed appellato est appellatio, delatio et termini praefixio intimanda. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e338-d1e116">
+            <ref xml:id="kdhaWs-d1e338-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Si a iudicibus duobus aut pluribus fuerit appellandum, quia forte de facili eorum praesentia simul haberi non posset, liceat coram ipsis vel maiori parte ipsorum appellare, et apostolos
+            petere separatim, valebitque appellatio talis, ac si simul fuisset in eorum praesentia ab omnibus appellatum; est tamen appellato ignoranti appellationis, nec non delationis eorum et
+            termini praefixionis, si subsecutae fuerint, intimatio legitime facienda. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e123">
+          <head xml:id="kdhaWs-d1e338-Hd1e125">Caput 1</head>
+          <p xml:id="kdhaWs-d1e338-d1e128"> Sufficit, apostolos peti uno contextu saepius et instanter. Ad quos recipiendos si iudex certum terminum statuat, appellans, illos non petens in termino,
+            appellationi renunciat. Idem, quum iudex statuit terminum iuris incertum, infra quem appellans illos debite non petivit, vel oblatos recipere renuit. — </p>
+          <p xml:id="kdhaWs-d1e338-d1e131"> §. 1. Ponit tres casus, quibus appellans, non habens apostolos, appellationem prosequi potest. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e338-d1e134"> Idem. Quamvis rigor iuris exposcat, eum, qui appellat, debere petere apostolos congruo loco et tempore saepius et instanter: nos tamen, antiquam et communem
+            observantiam litigantium sequi, et aequitatem rigori praeferri volentes, decernimus sufficere, quod per appellantem simul uno contextu apostoli instanter et saepius postulentur. Verum si
+            iudex, a quo appellatur, certum terminum ad recipiendos apostolos appellanti assignet, et appellans in assignato sibi termino non compareat coram eo, nec petat apostolos sibi tradi:
+            appellationi suae renunciasse videtur. Similiter, si iudex appellanti responderit, infra iuris terminum apostolos se daturum; appellationi suae renunciasse appellans intelligitur, nisi
+            infra dictum terminum congruo loco et tempore instanter et saepius saltem uno contextu petat apostolos ab eodem iudice sibi dari, vel si recipere recusat oblatos. </p>
+          <p xml:id="kdhaWs-d1e338-d1e137"> §. i. Quodsi iudex in termino, ad dandum apostolos praefixo per eum, ipsos appellanti petenti non dederit, aut si, dum peterentur apostoli , responderit, se
+            daturum eosdem, nullo termino certo sibi praefixo, vel infra iuris terminum se eos asseruerit velle dare, et postea per appellantem congruo loco et tempore saepius et instanter uno
+            contextu etiam requisitus, eos non curaverit infra eundem terminum exhibere: appellationem suam extunc prosequi possit appellans, ac si expresse fuissent eidem apostoli denegati. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e141">
+          <head xml:id="kdhaWs-d1e338-Hd1e143">Caput 3</head>
+          <p xml:id="kdhaWs-d1e338-d1e146"> Appellans prosequi et finire tenetur appellationem extraiudicialem infra annum a die interpositae appellationis vel illati gravaminis; quo non facto,
+            impedimento iusto cessante, appellatio est deserta. H. d. </p>
+          <p xml:id="kdhaWs-d1e338-d1e149">
+            <ref xml:id="kdhaWs-d1e338-Rd1e151">Idem. </ref>
+             Sicut appellationem iudicialem, sic et extraiudicialem infra annum a die interpositionis ipsius, vel a die illati gravaminis, ubi a futuro gravamine appellatur , prosequi et finire
+            tenetur appellans. Quod si iusto impedimento cessante non fecerit: debebit eius appellatio deserta censeri. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e157">
+          <head xml:id="kdhaWs-d1e338-Hd1e159">Caput 4</head>
+          <p xml:id="kdhaWs-d1e338-d1e162"> Tempus, ad prosequendam appellationem ab homine vel a iure praefixum, non currit appellanti compromisso durante, vel de partium expresso consensu, nisi,
+            periculo imminente ex mora, iudex aliud decernat. </p>
+          <p xml:id="kdhaWs-d1e338-d1e165">
+            <ref xml:id="kdhaWs-d1e338-Rd1e167">Idem.</ref>
+             Quamdiu appellationis prosecutio per compromissum vel alias de partium expresso consensu differtur; tempus, ad prosequendum eandem ab homine vel a iure praefixum, currere nolumus
+            appellanti, nisi forte iudex, videns, ex dilatione periculum imminere, praeciperet in illa procedi. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e172">
+          <head xml:id="kdhaWs-d1e338-Hd1e174">Caput 5</head>
+          <p xml:id="kdhaWs-d1e338-d1e177"> Ante diffinitivam appellanti non licet prosequi causas, in appellatione nominatim non expressas, nec processus primi iudicis iustificari vel impugnari
+            potest, nisi ex actis coram eo. </p>
+          <p xml:id="kdhaWs-d1e338-d1e180">
+            <ref xml:id="kdhaWs-d1e338-Rd1e182">Idem</ref>
+             . Appellanti ab interlocutoria vel a gravamine iudicis, </p>
+          <p xml:id="kdhaWs-d1e338-d1e186"> non licet alias causas prosequi, quam in appellatione sua nominatim duntaxat expressas, nec processus primi iudicis ex novis aut de novo probandis
+            iustificari potest vel etiam impugnari, sed tantum ex illis, quae acta fuerunt vel exhibita coram ipso. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e190">
+          <head xml:id="kdhaWs-d1e338-Hd1e192">Caput 6</head>
+          <p xml:id="kdhaWs-d1e338-d1e195"> Prosecutio appellationis desertae non impedit, quin sententia censeatur in rem iudicatam transivisse. H. d. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e338-d1e198">
+            <ref xml:id="kdhaWs-d1e338-Rd1e200">Idem.</ref>
+             Si appellationem, per negligentiam appellantis desertam, appellans ipse cum appellato, aut appellatus etiam per se et principaliter prosequatur: non ideo minus in rem iudicatam censebitur
+            transivisse sententia, a qua fuerat appellatum. </p>
+        </div>
+        <div xml:id="kdhaWs-d1e338-Dd1e205">
+          <head xml:id="kdhaWs-d1e338-Hd1e207">Caput 7</head>
+          <p xml:id="kdhaWs-d1e338-d1e210"> A peremptoria, repulsa ex alio, quam propter ineptitudinem, secundo appellans et succumbens non auditur super ea in appellatione a diffinitiva. H. d. Ioann.
+            Andr. </p>
+          <p xml:id="kdhaWs-d1e338-d1e213">
+            <ref xml:id="kdhaWs-d1e338-Rd1e215">Idem</ref>
+             . S uum a repulsione exceptionis peremptoriae secundo ans succumbit, non est in causa appellationis, postmodum a diffinitiva emissae, audiendus ulterius super ea, nisi tunc rite proposita
+            ex eo prius repulsa fuisset, quia proponebatur inepte. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

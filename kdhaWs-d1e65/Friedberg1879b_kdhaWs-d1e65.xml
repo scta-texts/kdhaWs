@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS I.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS I.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e65">
+        <head xml:id="kdhaWs-d1e65-Hd1e102">TITULUS I.</head>
+        <head xml:id="kdhaWs-d1e65-Hd1e105" type="question-title">DE SUMMA TRINITATE ET FIDE CATHOLICA.</head>
+        <div xml:id="kdhaWs-d1e65-Dd1e108">
+          <head xml:id="kdhaWs-d1e65-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e65-d1e113"> Fatetur concilium, unicum Dei Filium, in essentia Dei aeternaliter subsistentem, verum corpus humanum assumpsisse de virgine, et in eo passum, et iam mortuum
+            lancea perforatum, approbans in hoc ordinem, quem tradidit Evangelista Ioannes. Hoc dicit. </p>
+          <p xml:id="kdhaWs-d1e65-d1e116">— §. 1. Reprobat et haereticam iudicat doctrinam, quae habet, quod substantia animae rationalis seu intellectivae vere et per se humani corporis non sit
+            forma. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e65-d1e119">— §. 2. Asserens, confitendum unufn baptisma sicut unum Deum et unam fidem, approbat opinionem, quae habet per illud conferri etiam parvulis quoad habitum
+            informantem gratiam et virtutes. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e65-d1e122">
+            <ref xml:id="kdhaWs-d1e65-Rd1e124">Clemens V. in concilio Viennensi </ref>
+             . Fidei catholicae fundamento, praeter quod teste Apostolo nemo potest aliud ponere, firmiter inhaerentes, aperte cum sancta matre ecclesia confitemur, unigenitum Dei Filium in his
+            omnibus, in quibus Deus Pater exsistit, una cum Patre aeternaliter subsistentem, partes nostrae naturae simul unitas, (ex quibus ipse in se verus Deus exsistens fieret verus homo,) humanum
+            videlicet corpus passibile, et animam intellectivam seu rationalem, ipsum corpus vere per se et essentialiter informantem, assumpsisse ex tempore in virginali thalamo, ad unitatem suae
+            hypostasis et personae. Et quod in hac assumpta natura ipsum Dei verbum pro omnium operanda salute non solum affigi cruci et in ea mori voluit, sed etiam, emisso iam spiritu, perforari
+            lancea sustinuit latus suum, ut, exinde profluentibus undis aquae et sanguinis, formaretur unica et immaculata ac virgo sancta mater ecclesia, coniux Christi, sicut de latere primi hominis
+            soporati Eva sibi in coniugium est formata, ut sic certae figurae primi et veteris Adae, qui secundum Apostolumest forma futuri, in nostro novissimo Adam, id est Christo, veritas
+            responderet . Haec est, inquam, veritas, illius praegrandis aquilae vallata testimonio, quam Propheta vidit Ezechiel animalibus ceteris evangelicis transvolantem, beati Ioannis videlicet
+            Apostoli et Evangelistae, qui, sacramenti huius rem gestam narrans et ordinem, in evangelio suo dixit : „Ad Iesum autem quum venissent, ut viderunt eum iam mortuum, non fregerunt eius
+            crura, sed unus militum lancea latus eius aperuit, et continuo exivit sanguis et aqua. Et qui vidit, testimonium perhibuit, et verum est testimonium eius, et ille scit, quia vera dicit, ut
+            et vos credatis.^ Nos igitur, ad tam praeclarum testimonium ac sanctorum Patrum et doctorum communem sententiam apostoli cae considerationis, (ad quam duntaxat haec declarare pertinet,)
+            aciem convertentes, sacro approbante concilio declaramus, praedictum Apostolum etEvangelistam Ioannem rectum in praemissis factae rei ordinem tenuisse, narrando, quod Christo iam mortuo
+            unus militum lancea latus eius aperuit . </p>
+          <p xml:id="kdhaWs-d1e65-d1e129"> §. i. Porro doctrinam omnem seu positionem , temere asserentem aut vertentem in dubium, quod substantia animae rationalis seu intellectivae vere ac per se
+            humani corporis non sit forma, velut erroneam ac veritati catholicae fidei inimicam praedicto sacro approbante concilio reprobamus, diffinientes, ut cunctis nota sit fidei sincerae
+            veritas, ac praecludatur universis erroribus aditus, ne subintrent, quod quisquis deinceps asserere, defendere seu tenere pertinaciter praesumpserit, quod anima rationalis seu intellectiva
+            non sit forma corporis humani per se et essentialiter, tanquam haereticus sit censendus. </p>
+          <p xml:id="kdhaWs-d1e65-d1e132"> §. 2. Ad hoc baptisma unicum baptlzatos omnes in Christo regenerans est, (sicut unus Deus ac fides unica,) ab omnibus fideliter confitendum, quod celebratum
+            in aqua in nomine Patris, et Filii et Spiritus sancti, credimus esse tam adultis quam parvulis communiter perfectum remedium ad salutem. </p>
+          <p xml:id="kdhaWs-d1e65-d1e135"> §. 3. Verum, quia, quantum ad effectum baptismi in parvulis, reperiuntur doctores quidam theologi opiniones contrarias habuisse, quibusdam ex ipsis
+            dicentibus, per virtutem baptismi parvulis quidem culpam remitti, sed gratiam non conferri, alii e contra asserentibus, quod et culpa eisdem in baptismo remittitur , et virtutes ac
+            informans gratia infunduntur quoad habitum, etsi non pro illo tempore quoad usum: nos autem , attendentes generalem efficaciam mortis Christi, (quae per baptisma applicatur pariter omnibus
+            baptizatis,) opinionem secundam, (quae dicit, tam parvulis quam adultis conferri in baptismo informantem gratiam et virtutes,) tanquam probabiliorem, et dictis sanctorum ac doctorum
+            modernorum theologiae magis consonam et concordem, sacro approbante concilio duximus eligendam. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

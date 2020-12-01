@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS X.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS X.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e313">
+        <head xml:id="kdhaWs-d1e313-Hd1e102">TITULUS X.</head>
+        <head xml:id="kdhaWs-d1e313-Hd1e105" type="question-title"> DE EXCEPTIONIBUS. </head>
+        <div xml:id="kdhaWs-d1e313-Dd1e108">
+          <head xml:id="kdhaWs-d1e313-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e313-d1e113"> Exceptio excommunicationis opponitur dilatorie quandocunque, peremptorio non obstante. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e313-d1e116">
+            <ref xml:id="kdhaWs-d1e313-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Excommunicationis exceptio dilatorie in qualibet parte litis opponi potest, termino peremptorio per iudicem as-, signato ad proponendum exceptiones declinatorias et dilatorias non
+            obstante; servata tamen constitutione felicis recordationis <name xml:id="kdhaWs-d1e313-Nd1e121">Innocentii Papae IV</name>. edita circa hoc in concilio Lugdunensi . </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

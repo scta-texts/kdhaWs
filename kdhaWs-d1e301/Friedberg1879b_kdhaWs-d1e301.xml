@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TITULUS IX.</title>
+        <author ref="#ClementV">Clement V</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>TITULUS IX.</title>
+          <date when="2020-12-01">December 01, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Fb" n="Friedberg1879b">Friedberg 1879, Volume 2</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="kdhaWs-d1e301">
+        <head xml:id="kdhaWs-d1e301-Hd1e102">TITULUS IX.</head>
+        <head xml:id="kdhaWs-d1e301-Hd1e105" type="question-title"> DE IUREIURANDO. </head>
+        <div xml:id="kdhaWs-d1e301-Dd1e108">
+          <head xml:id="kdhaWs-d1e301-Hd1e110">Caput 1</head>
+          <p xml:id="kdhaWs-d1e301-d1e113"> Iuramenta, quae Romanae ecclesiae praestant Romani principes, fidelitatis exsistunt. Ioann. Andr. </p>
+          <p xml:id="kdhaWs-d1e301-d1e116">
+            <ref xml:id="kdhaWs-d1e301-Rd1e118">Clemens V. in concilio Viennensi .</ref>
+             Romani, principes, orthodoxae fidei professores, sacrosanctam Romanam ecclesiam, cuius caput est Christus redemptor noster, ac Romanum Pontificem eiusdem redemptoris vicarium, fervore
+            fidei et clarae devotionis promptitudine venerantes, eidem Romano Pontifici, a quo approbationem personae ad imperialis celsitudinis apicem assumendae,nec non unctionem, consecrationem et
+            imperii coronam accipiunt, sua submittere capita non reputarunt indignum , seque illi et eidem ecclesiae, quae a Graecis imperium transtulit in Germanos, et a qua ad certos eorum principes
+            ius et potestas eligendi regem, in imperatorem postmodum promovendum, pervenit, adstringere vinculo iuramenti, prout tam mos observationis antiquae temporibus novissimis renovatae , quam
+            forma iuramenti huiusmodi sacris inserta canonibus manifestant. Dudum sane inter quondam Henricum imperatorem, tunc Romanorum regem, et carissimum in Christo filium nostrum
+            <ref xml:id="kdhaWs-d1e301-Rd1e121">Robertum Siciliae</ref>
+             regem gravi discordia suscitata, nos multis grandibusque periculis, quae exinde proventura verisimiliter timebantur, intendentes celeri opportuno remedio obviare, quibusdam ex fratribus
+            nostris sanctae Romanae ecclesiae cardinalibus, exsistentibus tunc in Urbe pro reformanda pace et solidanda concordia inter reges eosdem, literas nostras sub certa forma duximus
+            destinandas, inter alia inserentes in eis, quod, quum ipsi reges eiusdem ecclesiae specialissimi filii sibi iuramento fidelitatis et alias multipliciter essent adstricti, ipsius ecclesiae
+            debeant esse promptissimi defensores. Dictis autem literis in notitiam dicti <name xml:id="kdhaWs-d1e301-Nd1e124">Henrici</name>, ad imperium iam promoti, sic deductis, idem <name
+              xml:id="kdhaWs-d1e301-Nd1e127">Henricus</name>, ab eisdem cardinalibus requisitus, ut super contentis in illis suum propositum responderet, quasi moleste tulisset, quod de iuramento
+            fidelitatis huiusmodi per eum praestito in dictis literis mentio haberetur , non familiariter, nec secrete, ut tractandae pacis qualitas exigebat, sed multis tabellionibus accersitis et
+            requisitis ab eo, quod de responsionibus suis conficerent publica instrumenta, inter cetera publice, praesente multitudine hominum copiosa, respondit, se non fore cuiquam ad iuramentum
+            fidelitatis adstrictum, et quod nunquam fecerit iuramentum, propter quod foret ad iuramentum fidelitatis alicui obligatus, et quod ipse nesciebat, quod antecessores sui Romani imperatores
+            unquam iuramentum huiusmodi praestitissent, simulans se immemorem iuramentorum, quae nobis ante coronationem suam praestiterat, et post coronationem etiam innovarat. Nos itaque
+            attendentes, quod huiusmodi responsio, si sub dissimulatione pertranseat vel silentio pallietur, posset in magnum et evidens praeiudicium Romanae ecclesiae redundare, dignum admodum et
+            opportunum fore prospeximus, ut de iuramentis huiusmodi constitutioni praesenti aliqua breviter annectamus . Dictus namque Henricus quam primum fuit in regem Romanorum electus, solennes ad
+            nos nuncios destinavit, dans eis per suas patentes literas plenum et speciale mandatum, exponendi nobis pro eo devotionem ipsius et reverentiam filialem, quam ad nos et Romanam ecclesiam
+            sincero gerere se dicebat affectu, nec non petendi et impetrandi a nobis favorem et gratiam consuetos, offerendi quoque nobis et praestandi pro eo et in ipsius animam debitae nobis et
+            eidem ecclesiae fidelitatis et cuiuslibet alterius generis iuramentum, ac nihilominus petendi a nobis per nostras sibi manus impendi unctionem, consecrationem , et Romani imperii diadema.
+            Praefatis itaque nunciis in nostra et fratrum nostrorum praesentia constitutis, ac secundum dicti tenorem mandati Avenione, ubi tunc eramus cum nostra curia residentes, in publico
+            consistorio, in quo erat praelatorum, et aliorum tam clericorum quam laicorum non modica multitudo, praemissis per eos coram nobis expositis, supplicando petitis humiliter et oblatis, nos,
+            eodem mandato et decreto electionis eiusdem Henrici ex parte principum tam ecclesiasticorum quam saecularium, qui eundem elegerant, nobis per dictos nuncios praesentatis, plena cum eisdem
+            fratribus deliberatione discussis, factaque nobis de electione huiusmodi concordi et legitima plena fide, examinata quoque persona ipsius Henrici, prout absentia patiebatur eiusdem , et de
+            ipsius fide , probitate et aliis, quae in persona imperatoris sunt merito requirenda, cum pluribus praelatis et aliis magnae auctoritatis viris, qui eiusdem Henrici mores , conditionem et
+            statum plenius noverant, inquisito , eiusque persona, cuius etiam nos et fratres nostri aliqualem prius notitiam habebamus, propter quod facilius transivimus in examinatione huiusmodi ,
+            idonea reputata, ipsum nominavimus, denunciavimus et declaravimus regem Romanorum, ipsius approbantes personam, eumque sufficientem et habilem declarantes ad suscipiendam imperialis
+            celsitudinis dignitatem, ac decernentes unctionem, consecrationem imperiique Romani coronam sibi per manus nostras debere concedi, et subsequenter a praefatis nunciis, sufficiens ad hoc ab
+            eo, (ut praemittitur,) mandatum habentibus, secundum formam, in decretis , quae incipit: „Tibi domino " comprehensam, fidelitatis recepimus iuramentum. Postque idem Henricus consecrationis
+            et coronationis suae tempore aliud eisdem cardinalibus, quos ad impendendum sibi huiusmodi consecrationis et coronationis insignia miseramus ad Urbem, illud nostro nomine recipientibus,
+            iuramentum praestitit corporale, quod in libro pontificali Romano praestandum Pontifici per imperatorem coronationis suae tempore continetur, cuius tenor dignoscitur esse talis: „Ego
+            Henricus Romanorum rex, annuente Domino futurus imperator, promitto, spondeo et polliceor atque iuro coram Deo et beato Petro, me de cetero protectorem, procuratorem et defensorem fore
+            summi Pontificis et huius sanctae Romanae ecclesiae in omnibus necessitatibus et utilitatibus suis, custodiendo et conservando possessiones , honores et iura eius, quantum divino suffultus
+            adiutorio fuero, secundum scire et posse meum, recta et pura fide. Sic me Deus adiuvet et haec sancta Dei evangelia!“ Ceterum, quin iuramenta huiusmodi fidelitatis exsistant, a retro
+            Romanis principibus non fuit hactenus haesitatum; immo tam quondam Albertus rex Romanorum, immediatus praedecessor memorati Henrici, Bonifacio Papae VIII. praedecessori nostro tempore
+            approbationis eiusdem <name xml:id="kdhaWs-d1e301-Nd1e130">Alberti</name>, quam <name xml:id="kdhaWs-d1e301-Nd1e134">Rodulphus</name> pater ipsius, et alii praedecessores eiusdem Romanorum
+            reges diversis nostris praedecessoribus iuramentum fidelitatis et obedientiae praestiterunt. Idemque Bonifacius memoratum Albertum, iuramento huiusmodi ab eo recepto, de fratrum suorum
+            consilio, praesente praelatorum et aliorum multitudine copiosa, auctoritate apostolica recepit in specialem suum filium et ecclesiae memoratae, ipsumque in regem Romanorum assumpsit, in
+            imperatorem postmodum promovendum . Verum quia saepe fatus Henricus, qui in proximis diebus fuit de hac luce subtractus, non virtutem et mentem, sed nedum verborum insectans corticem,
+            sensumque confundens, iuramenta restringendo praedicta curiose videbatur asserere, ut praefertur, illa ad debitum fidelitatis huiusmodi non extendi: novo morbo curiositatis huius
+            luculentae veritatis antidotum praesentis declarationis oraculo providimus apponendum . Quia ergo capitulis iuramento fidelitatis contentis sollicita meditatione pensatis, ipsa capitula in
+            praefatis imperatoris iuramentis quantum ad effectum, mentem et virtutem ipsorum, non est dubium contineri: nos, praemissis et aliis rationibus, ne quis, in Romanum assumptus principem vel
+            in posterum assumendus, an iuramenta huiusmodi, per dictum Henricum imperatorem praestita, et per successores ipsius in futurum praestanda, fidelitatis exsistant , in dubitationem deducere
+            audeat, vel super his contrarium adstruere veritati, auctoritate apostolica de fratrum nostrorum consilio declaramus, illa iuramenta praedicta fidelitatis existere et censeri debere. Porro
+            praeter iuramenta praedicta idem Henricus, suorum inhaerens praedecessorum vestigiis, priusquam ingrederetur Italiam, vel ibidem iura aliqua exerceret, sub testimonio suarum patentium
+            literarum in manibus dilecti filii Ioannis de Mollianis , scholastici ecclesiae Tullensis, capellani nostri, ad hoc specialiter per nos missi, nostro et praefatae ecclesiae nomine
+            recipientis promisit, et tactis sacrosanctis evangeliis iuramento firmavit, quod eandem ecclesiam et fidem catholicam pura fide totisque viribus conservaret reverenter et etiam defensaret,
+            omnemque haeresim, schisma et haereticos quoslibet, fautores, receptatores et defensores ipsorum exterminaret pro posse, ac nunquam cum Sarraceno, pagano, schismatico seu alio quolibet
+            communionem catholicae fidei non habente, aut cum aliquo alio praefatae ecclesiae inimico vel rebelli, seu eidem manifeste suspecto, unionem quamlibet seu parentelam aut confoederationem
+            iniret, sed tam nostram quam successorum nostrorum personas, honorem et statum manuteneret, defenderet et conservaret contra omnes homines, cuiuscunque exsisterent prae-eminentiae,
+            dignitatis vel status. Eidem etiam adiiciens iuramento, quod manuteneret semper atque servaret privilegia omnia, per praedecessores suos reges ac imperatores Romanos praefatae Romanae et
+            aliis quibuslibet ecclesiis quocunque concessa tempore, et continentiae cuiuscunque. Ipsaque omnia, et specialiter ac praecipue per clarae memoriae Constantinum, Caro-lum , Henricum,
+            Ottonem IV., Fridericum II. atque Rodulphum praedecessores ipsius, super concessione, recognitione, advocatione , adnotatione , quitatione et libera dimissione terrarum et provinciarum
+            Romanae ecclesiae ubilibet positarum, quarum etiam multas nominatim expressit , sedi apostolicae Romanisque Pontificibus super quocunque tenore concessa recognovit, confirmavit, et ex
+            certa scientia innovavit, ac etiam de novo concessit. Et terras ipsas atque provincias recognovit ad ius et proprietatem ipsius ecclesiae plenissime pertinere, easque nihilominus ex
+            abundanti de novo ecclesiae saepe fatae donavit, sub praedicto se obligans iuramento, quod ipsas aliquamve ipsarum partem nullo unquam tempore occuparet, seu, quantum in eo esset, ab alio
+            permitteret occupari; nec in eis aut aliqua parte ipsarum iura aliqua, possessiones aut tenutas haberet seu quomodolibet possideret, nec in eis etiam potestariae seu cuiusvis capi-taniae ,
+            aut iurisdictionem quamcunque per se vel per alium exerceret, quodque, ut princeps catholicus et saepe dictae ecclesiae advocatus atque defensor, ipsam iuvaret, et consiliis et auxiliis
+            illi assisteret opportunis contra quoscunque inobedientes et rebelles eidem, et praecipue contra occupantes seu turbantes terras praedictas seu provincias, vel partem quamlibet earundem.
+            Sub eodem etiam iuramento promisit, quod tam ipsam Romanam ecclesiam, quam alias ecclesias, libertatem ecclesiasticam, bona, iura, praelatos et ministros ecclesiarum ipsarum manuteneret,
+            conservaret atque defenderet suo posse, et quod ecclesiae Romanae vasallos contra iustitiam nullatenus offensurus, devotos ac fideles ecclesiae, etiam in imperio constitutos, benigne
+            tractaret, nec eos opprimeret contra iustitiam, aut, (quantum in eo esset,) per alium opprimi sustineret, sed in suis potius iuribus et iustitiis conservaret. Hoc quoque iuramentum et
+            etiam pristinum , pro eo nobis per suos nuncios, (ut praemittitur,) praestitum, receptis suae coronationis insingniis innovavit, prout in patentibus, ante coronationem ipsam , eius regio
+            magno sigillo, et aliis post coronationem eandem, eius imperiali aurea bulla munitis, inde confectis literis, (quas in archivis Rom. ecclesiae reponi, et diligenter conservari fecimus,)
+            plenius continetur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
